@@ -1,27 +1,21 @@
 {
-  "id": "forest_web_001",
-
-  "category": "NATURE",
-
+  "id": "001",
+  "category": "Biology",
   "title": {
-    "en": "THE FOREST'S SECRET NETWORK",
-    "zh": "森林的隐秘网络"
+    "en": "The Unending Cycle",
+    "zh": "无尽的循环"
   },
-
   "reveal": {
-    "en": "Beneath a forest floor, fungi connect the roots of different trees, creating underground networks where nutrients and signals can move.",
-    "zh": "森林地表之下，真菌连接不同树木的根系，形成地下网络，让养分和信息能够在其中传递。"
+    "en": "Deep in the ocean, a tiny jellyfish called *Turritopsis dohrnii* has discovered the secret to eternal life. When faced with stress or old age, it simply reverses its lifecycle, transforming back into its juvenile polyp stage, only to mature again. It is a creature that defies the natural law of mortality, infinitely regenerating.",
+    "zh": "在海洋深处，一种名为*灯塔水母*的微小水母发现了永生的秘密。当面临压力或衰老时，它会逆转生命周期，变回幼年的水螅阶段，然后再次成熟。它是一种蔑视自然死亡法则，无限再生的生物。"
   },
-
   "meaning": {
-    "en": "A forest is not simply a collection of trees. Much of its intelligence exists in invisible relationships.",
-    "zh": "森林并不是孤立树木的集合，许多生命智慧存在于看不见的连接之中。"
+    "en": "This miniature marvel reminds us that endings are often just new beginnings in disguise. It challenges our perception of linear time and mortality, suggesting that transformation and rebirth are not just metaphors, but fundamental possibilities within the tapestry of existence. Life, in its essence, is a continuous unfolding, capable of reinventing itself.",
+    "zh": "这个微小的奇迹提醒我们，结局往往只是伪装下的新开始。它挑战了我们对线性时间和死亡的认知，暗示着转变和重生不仅仅是比喻，而是存在织锦中基本的可能性。生命，在其本质上，是一个持续的展开，能够自我重塑。"
   },
-
-  "source": "Research on mycorrhizal networks",
-
+  "source": "Marine Biology",
   "visual": {
-    "theme": "nature",
-    "color": "#6FAF8A"
+    "theme": "Bioluminescent Depths",
+    "color": "#0A2463"
   }
 }
