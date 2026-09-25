@@ -1,0 +1,71 @@
+name: ONE THING DAILY
+
+
+on:
+
+  schedule:
+
+    - cron: "0 0 * * *"
+
+
+  workflow_dispatch:
+
+
+jobs:
+
+  generate:
+
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+
+    - uses: actions/checkout@v4
+
+
+
+    - uses: actions/setup-python@v5
+
+      with:
+
+        python-version: "3.12"
+
+
+
+    - run:
+
+        pip install -r engine/requirements.txt
+
+
+
+    - run:
+
+        python engine/generate.py
+
+      env:
+
+        GEMINI_API_KEY:
+          ${{ secrets.GEMINI_API_KEY }}
+
+
+
+    - name:
+
+        Commit update
+
+
+      run:
+
+        |
+
+        git config user.name github-actions
+
+        git config user.email actions@github.com
+
+        git add .
+
+        git commit -m "daily one thing" || exit 0
+
+        git push
