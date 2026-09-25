@@ -99,7 +99,7 @@ if not data.get("title"):
 
 
 with open(
-"../content/today.json",
+"content/today.json",
 "w",
 encoding="utf-8"
 ) as f:
