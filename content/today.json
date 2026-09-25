@@ -1,21 +1,16 @@
 {
-  "id": "001",
-  "category": "Biology",
-  "title": {
-    "en": "The Unending Cycle",
-    "zh": "无尽的循环"
-  },
-  "reveal": {
-    "en": "Deep in the ocean, a tiny jellyfish called *Turritopsis dohrnii* has discovered the secret to eternal life. When faced with stress or old age, it simply reverses its lifecycle, transforming back into its juvenile polyp stage, only to mature again. It is a creature that defies the natural law of mortality, infinitely regenerating.",
-    "zh": "在海洋深处，一种名为*灯塔水母*的微小水母发现了永生的秘密。当面临压力或衰老时，它会逆转生命周期，变回幼年的水螅阶段，然后再次成熟。它是一种蔑视自然死亡法则，无限再生的生物。"
-  },
-  "meaning": {
-    "en": "This miniature marvel reminds us that endings are often just new beginnings in disguise. It challenges our perception of linear time and mortality, suggesting that transformation and rebirth are not just metaphors, but fundamental possibilities within the tapestry of existence. Life, in its essence, is a continuous unfolding, capable of reinventing itself.",
-    "zh": "这个微小的奇迹提醒我们，结局往往只是伪装下的新开始。它挑战了我们对线性时间和死亡的认知，暗示着转变和重生不仅仅是比喻，而是存在织锦中基本的可能性。生命，在其本质上，是一个持续的展开，能够自我重塑。"
-  },
-  "source": "Marine Biology",
+  "id": "CMB-001",
+  "category": "COSMOS",
+  "title_en": "Echo of Creation's Dawn",
+  "title_zh": "创世之光的迴响",
+  "reveal_en": "The Cosmic Microwave Background is the universe's oldest light. It's the afterglow from just 380,000 years post-Big Bang.",
+  "reveal_zh": "宇宙微波背景辐射是宇宙最古老的光。它是大爆炸后38万年的余晖。",
+  "meaning_en": "This faint whisper reveals our cosmic origin story, connecting us directly to the universe's very first breath.",
+  "meaning_zh": "这微弱的耳语揭示了我们的宇宙起源故事，将我们与宇宙的初生紧密连接。",
+  "source": "Cosmic Observation",
   "visual": {
-    "theme": "Bioluminescent Depths",
-    "color": "#0A2463"
+    "theme": "Ancient starlight, infinite expanse, deep time.",
+    "color": "Deep cosmic indigo fading into faint warm gold.",
+    "motion": "Slow, gentle pulse of shimmering, distant light."
   }
 }
