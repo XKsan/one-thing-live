@@ -7,15 +7,21 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+
 html,
 body {
     margin: 0;
+
     width: 100%;
     height: 100%;
     height: 100dvh;
+
     overflow: hidden;
+
     background: #020202;
+
     color: #fff;
+
     font-family:
         -apple-system,
         BlinkMacSystemFont,
@@ -24,19 +30,29 @@ body {
         sans-serif;
 }
 
+
 body {
     min-height: 100dvh;
 }
 
+
 .space {
+
     position: fixed;
+
     inset: 0;
+
     width: 100%;
     height: 100dvh;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
+
     overflow: hidden;
+
     background:
         radial-gradient(
             circle at center,
@@ -46,443 +62,913 @@ body {
 }
 
 
-/* ENTRY */
+/* =====================
+ENTRY
+===================== */
+
 
 .entry {
+
     position: absolute;
+
     z-index: 20;
 
+
     font-size: 9px;
+
     font-weight: 300;
+
     letter-spacing: 9px;
 
-    color: rgba(255,255,255,.55);
 
-    transform: translateX(5px);
+    color:
+        rgba(255,255,255,.55);
+
+
+    transform:
+        translateX(5px);
+
 
     cursor: pointer;
+
     user-select: none;
+
 
     transition:
         opacity 1.2s ease,
         transform 1.2s ease;
 }
 
+
 .vanish {
+
     opacity: 0;
+
+
     transform:
         translateY(-15px)
         translateX(5px);
 }
 
 
-/* ORB */
+
+/* =====================
+ORB
+===================== */
+
 
 .orb {
+
     position: absolute;
 
-    width: min(44vw,210px);
-    height: min(44vw,210px);
 
-    border-radius: 50%;
+    width:
+        min(44vw,210px);
 
-    cursor: pointer;
+    height:
+        min(44vw,210px);
 
-    animation:
-        breathe 8s ease-in-out infinite;
-}
-
-.orb-inner {
-    width:100%;
-    height:100%;
 
     border-radius:50%;
 
+
+    cursor:pointer;
+
+
+    animation:
+
+        breathe
+        8s
+        ease-in-out
+        infinite;
+
+}
+
+
+
+.orb-inner {
+
+
+    width:100%;
+
+    height:100%;
+
+
+    border-radius:50%;
+
+
     background:
+
         radial-gradient(
+
             circle,
-            var(--theme) 0%,
+
+            var(--theme)
+
+            0%,
+
+
             color-mix(
+
                 in srgb,
+
                 var(--theme) 35%,
+
                 transparent
-            ) 32%,
-            transparent 72%
+
+            )
+
+            32%,
+
+
+            transparent
+
+            72%
+
         );
 
-    filter: blur(18px);
+
+    filter:blur(18px);
+
 }
+
 
 
 @keyframes breathe {
+
     0%,
     100% {
+
         transform:scale(.94);
+
         opacity:.45;
+
     }
+
 
     50% {
+
         transform:scale(1.12);
+
         opacity:.9;
+
     }
+
 }
 
 
-/* PORTAL */
+
+
+/* =====================
+PORTAL
+===================== */
+
 
 .portal {
+
     animation:
-        portal 1.2s cubic-bezier(.2,.7,.1,1) forwards;
+
+        portal
+
+        1.2s
+
+        cubic-bezier(.2,.7,.1,1)
+
+        forwards;
+
 }
+
 
 @keyframes portal {
+
+
     from {
+
         transform:scale(1);
+
         opacity:.9;
+
     }
 
+
     to {
+
         transform:scale(18);
+
         opacity:0;
+
     }
+
 }
 
 
-/* DISCOVERY */
+
+/* =====================
+DISCOVERY
+===================== */
+
 
 .discovery {
+
+
     position:absolute;
+
     inset:0;
 
+
     width:100%;
+
     height:100dvh;
 
+
+    contain:
+        layout
+        paint;
+
+
     padding:
+
+
         calc(env(safe-area-inset-top) + 20px)
+
         24px
+
+
         calc(env(safe-area-inset-bottom) + 90px);
 
+
+
     display:flex;
+
+
     flex-direction:column;
 
+
     align-items:center;
+
+
     justify-content:center;
+
 
     text-align:center;
 
+
     overflow:hidden;
 
+
     animation:
-        revealPage 1.3s cubic-bezier(.2,.7,.1,1);
+
+
+        revealPage
+
+        1.3s
+
+        cubic-bezier(.2,.7,.1,1);
+
 }
 
+
+
 .hidden {
+
     display:none;
+
 }
+
+
+
+/* =====================
+MINI ORB
+===================== */
 
 
 .mini-orb {
+
+
     width:46px;
+
     height:46px;
+
 
     flex:none;
 
+
     border-radius:50%;
 
+
     background:
+
+
         radial-gradient(
+
             circle,
+
             var(--theme),
+
             transparent 72%
+
         );
+
 
     filter:blur(8px);
 
+
     margin-bottom:24px;
 
+
     animation:
-        miniFloat 7s ease-in-out infinite;
+
+
+        miniFloat
+
+        7s
+
+        ease-in-out
+
+        infinite;
+
 }
 
 
-/* TEXT */
+
+
+/* =====================
+TEXT
+===================== */
+
 
 h1 {
+
+
     max-width:280px;
 
+
     margin:
+
         0
+
         0
+
         14px;
 
+
+
     font-size:
+
         clamp(20px,5vw,26px);
+
+
 
     line-height:1.25;
 
+
     font-weight:300;
 
+
     letter-spacing:2px;
+
 }
+
 
 
 .subtitle {
+
+
     max-width:290px;
+
 
     font-size:12px;
 
+
     line-height:1.5;
 
+
     color:
+
+
         rgba(255,255,255,.55);
 
+
+
     margin-bottom:14px;
+
 }
+
 
 
 p {
+
+
     max-width:290px;
+
 
     margin:4px 0;
 
+
     font-size:12.5px;
 
+
     line-height:1.55;
+
 
     font-weight:300;
 
+
     color:
+
+
         rgba(255,255,255,.75);
+
 }
+
 
 
 #meaning {
+
+
     max-width:290px;
+
 
     margin-top:8px;
 
+
     font-size:11.5px;
+
 
     line-height:1.55;
 
+
     color:
+
+
         rgba(255,255,255,.38);
+
 }
+
 
 
 .content {
+
+
     width:100%;
-    max-height:34vh;
+
+
+    max-height:30vh;
+
 
     overflow:hidden;
 
+
     display:flex;
+
+
     flex-direction:column;
+
+
     align-items:center;
+
 }
 
 
-/* ACTIONS */
+
+/* =====================
+ACTIONS
+===================== */
+
 
 .actions {
+
+
     position:absolute;
 
+
     left:0;
+
     right:0;
 
+
     bottom:
+
+
         calc(env(safe-area-inset-bottom) + 24px);
+
+
 
     display:flex;
 
+
     justify-content:center;
+
+
     align-items:center;
+
 
     gap:34px;
 
+
     font-size:9px;
+
 
     letter-spacing:4px;
 
+
     color:
+
+
         rgba(255,255,255,.32);
+
 }
+
+
 
 .actions span {
+
+
     cursor:pointer;
+
     user-select:none;
+
 }
 
 
-/* CATEGORY */
+
+/* =====================
+CATEGORY
+===================== */
+
 
 body[data-theme="cosmos"] {
+
+
     background:
+
+
         radial-gradient(
+
             circle,
+
             rgba(70,80,180,.06),
+
             transparent 48%
+
         );
+
 }
+
+
 
 body[data-theme="nature"] {
+
+
     background:
+
+
         radial-gradient(
+
             circle,
+
             rgba(70,150,90,.05),
+
             transparent 48%
+
         );
+
 }
+
+
 
 body[data-theme="human"] {
+
+
     background:
+
+
         radial-gradient(
+
             circle,
+
             rgba(180,120,70,.05),
+
             transparent 48%
+
         );
+
 }
+
+
 
 body[data-theme="time"] {
+
+
     background:
+
+
         radial-gradient(
+
             circle,
+
             rgba(150,160,180,.05),
+
             transparent 48%
+
         );
+
 }
 
 
-/* MOTION */
+
+/* =====================
+MOTION
+===================== */
+
 
 @keyframes revealPage {
+
+
     from {
+
+
         opacity:0;
 
+
         transform:
+
             translateY(20px)
+
             scale(.98);
 
+
+
         filter:blur(8px);
+
     }
+
+
 
     to {
+
+
         opacity:1;
 
+
         transform:
+
             translateY(0)
+
             scale(1);
 
+
+
         filter:blur(0);
+
     }
+
 }
+
+
 
 @keyframes miniFloat {
+
+
     0%,
     100% {
+
         transform:translateY(0);
+
     }
 
+
     50% {
+
         transform:translateY(-8px);
+
     }
+
 }
 
 
-/* SAFARI */
+
+
+/* =====================
+SAFARI FIX
+===================== */
+
 
 @supports (-webkit-touch-callout:none) {
 
+
     .discovery {
+
+
         justify-content:flex-start;
-        padding-top:18vh;
+
+
+        padding-top:
+
+
+            calc(
+
+                env(safe-area-inset-top)
+
+                +
+
+                14vh
+
+            );
+
+
+        padding-bottom:
+
+            120px;
+
     }
 
-    .actions {
-        bottom:
-            calc(env(safe-area-inset-bottom) + 20px);
-    }
-
-}
-
-
-/* MOBILE */
-
-@media(max-width:480px){
-
-    .orb {
-        width:180px;
-        height:180px;
-    }
-
-
-    .entry {
-        font-size:8px;
-        letter-spacing:7px;
-    }
-
-
-    .discovery {
-        padding-left:22px;
-        padding-right:22px;
-    }
-
-
-    .mini-orb {
-        width:42px;
-        height:42px;
-        margin-bottom:22px;
-    }
-
-
-    h1 {
-        font-size:22px;
-        max-width:270px;
-        margin-bottom:12px;
-    }
-
-
-    .subtitle {
-        font-size:12px;
-    }
-
-
-    p {
-        font-size:12px;
-        max-width:280px;
-        line-height:1.5;
-    }
-
-
-    #meaning {
-        font-size:11px;
-    }
 
 
     .content {
-        max-height:32vh;
+
+
+        max-height:30vh;
+
     }
 
 
+
     .actions {
+
+
         bottom:
-            calc(env(safe-area-inset-bottom) + 18px);
+
+
+            calc(
+
+                env(safe-area-inset-bottom)
+
+                +
+
+                18px
+
+            );
+
     }
 
 }
 
 
-/* REDUCE MOTION */
+
+
+/* =====================
+MOBILE
+===================== */
+
+
+@media(max-width:480px){
+
+
+    .orb {
+
+
+        width:180px;
+
+        height:180px;
+
+    }
+
+
+
+    .entry {
+
+
+        font-size:8px;
+
+        letter-spacing:7px;
+
+    }
+
+
+
+    .discovery {
+
+
+        padding-left:22px;
+
+        padding-right:22px;
+
+    }
+
+
+
+    .mini-orb {
+
+
+        width:42px;
+
+        height:42px;
+
+
+        margin-bottom:22px;
+
+    }
+
+
+
+    h1 {
+
+
+        font-size:22px;
+
+
+        max-width:270px;
+
+
+        margin-bottom:12px;
+
+    }
+
+
+
+    .subtitle {
+
+
+        font-size:12px;
+
+    }
+
+
+
+    p {
+
+
+        font-size:12px;
+
+
+        max-width:280px;
+
+
+        line-height:1.5;
+
+    }
+
+
+
+    #meaning {
+
+
+        font-size:11px;
+
+    }
+
+
+
+    .content {
+
+
+        max-height:28vh;
+
+    }
+
+
+
+    .actions {
+
+
+        bottom:
+
+
+            calc(
+
+                env(safe-area-inset-bottom)
+
+                +
+
+                18px
+
+            );
+
+    }
+
+}
+
+
+
+/* =====================
+REDUCE MOTION
+===================== */
+
 
 @media(prefers-reduced-motion:reduce){
+
 
     *,
     *::before,
     *::after {
 
+
         animation-duration:.01ms!important;
 
+
         animation-iteration-count:1!important;
+
 
         transition-duration:.01ms!important;
 
