@@ -1,0 +1,27 @@
+{
+  "id": "forest_web_001",
+
+  "category": "NATURE",
+
+  "title": {
+    "en": "THE FOREST'S SECRET NETWORK",
+    "zh": "森林的隐秘网络"
+  },
+
+  "reveal": {
+    "en": "Beneath a forest floor, fungi connect the roots of different trees, creating underground networks where nutrients and signals can move.",
+    "zh": "森林地表之下，真菌连接不同树木的根系，形成地下网络，让养分和信息能够在其中传递。"
+  },
+
+  "meaning": {
+    "en": "A forest is not simply a collection of trees. Much of its intelligence exists in invisible relationships.",
+    "zh": "森林并不是孤立树木的集合，许多生命智慧存在于看不见的连接之中。"
+  },
+
+  "source": "Research on mycorrhizal networks",
+
+  "visual": {
+    "theme": "nature",
+    "color": "#6FAF8A"
+  }
+}
