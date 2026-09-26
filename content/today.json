@@ -1,16 +1,16 @@
 {
-  "id": "CMB-001",
+  "id": "OT001",
   "category": "COSMOS",
-  "title_en": "Echo of Creation's Dawn",
-  "title_zh": "创世之光的迴响",
-  "reveal_en": "The Cosmic Microwave Background is the universe's oldest light. It's the afterglow from just 380,000 years post-Big Bang.",
-  "reveal_zh": "宇宙微波背景辐射是宇宙最古老的光。它是大爆炸后38万年的余晖。",
-  "meaning_en": "This faint whisper reveals our cosmic origin story, connecting us directly to the universe's very first breath.",
-  "meaning_zh": "这微弱的耳语揭示了我们的宇宙起源故事，将我们与宇宙的初生紧密连接。",
-  "source": "Cosmic Observation",
+  "title_en": "Starlight's Ancient Whisper",
+  "title_zh": "星光的远古低语",
+  "reveal_en": "Light from distant stars travels for eons. When it finally reaches your eye, you are seeing the universe's past.",
+  "reveal_zh": "遥远星光穿越亿万年抵达。你所见的，是宇宙最古老的过去。",
+  "meaning_en": "Every glimmer connects you to a journey through time, a memory of celestial bodies that might have transformed or ceased to be. You witness their enduring echo.",
+  "meaning_zh": "每次闪烁都连接着一场穿越时空的旅程。它是一颗星辰可能已消逝，却永恒回响的记忆。",
+  "source": "Starlight Physics",
   "visual": {
-    "theme": "Ancient starlight, infinite expanse, deep time.",
-    "color": "Deep cosmic indigo fading into faint warm gold.",
-    "motion": "Slow, gentle pulse of shimmering, distant light."
+    "theme": "Cosmic wonder, vastness, time",
+    "color": "Deep indigo, shimmering silver, faint gold",
+    "motion": "Slow, ethereal drift of stardust; subtle pulsation of light"
   }
 }
