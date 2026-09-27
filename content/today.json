@@ -1,16 +1,16 @@
 {
-  "id": "OT001",
+  "id": "OT-NEUTRINO-20231027",
   "category": "COSMOS",
-  "title_en": "Starlight's Ancient Whisper",
-  "title_zh": "星光的远古低语",
-  "reveal_en": "Light from distant stars travels for eons. When it finally reaches your eye, you are seeing the universe's past.",
-  "reveal_zh": "遥远星光穿越亿万年抵达。你所见的，是宇宙最古老的过去。",
-  "meaning_en": "Every glimmer connects you to a journey through time, a memory of celestial bodies that might have transformed or ceased to be. You witness their enduring echo.",
-  "meaning_zh": "每次闪烁都连接着一场穿越时空的旅程。它是一颗星辰可能已消逝，却永恒回响的记忆。",
-  "source": "Starlight Physics",
+  "title_en": "Cosmic Ghost Particles",
+  "title_zh": "宇宙幽灵粒子",
+  "reveal_en": "Trillions of nearly massless neutrinos, born from distant stars, pass through your body every second. They are silent cosmic messengers, almost never interacting.",
+  "reveal_zh": "每秒，亿万无质量的中微子穿透你的身体，它们诞生于遥远星辰。这些寂静的宇宙信使，几乎从不互动。",
+  "meaning_en": "You are a living conduit for an invisible river of the universe's most elusive matter. An intimate connection to the cosmos, beyond our senses.",
+  "meaning_zh": "你亦是宇宙最难以捉摸物质的活导体。这是与宇宙超越感官的亲密连接。",
+  "source": "Particle Physics",
   "visual": {
-    "theme": "Cosmic wonder, vastness, time",
-    "color": "Deep indigo, shimmering silver, faint gold",
-    "motion": "Slow, ethereal drift of stardust; subtle pulsation of light"
+    "theme": "Ethereal, microscopic cosmic flow.",
+    "color": "Deep indigo, subtle shimmering silver, hints of faint aurora green.",
+    "motion": "Gentle, continuous stream of tiny, glowing motes silently passing through an indistinct silhouette."
   }
 }
