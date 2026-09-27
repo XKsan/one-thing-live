@@ -1,16 +1,16 @@
 {
-  "id": "OT-NEUTRINO-20231027",
+  "id": "ONE-THING-CMB-001",
   "category": "COSMOS",
-  "title_en": "Cosmic Ghost Particles",
-  "title_zh": "宇宙幽灵粒子",
-  "reveal_en": "Trillions of nearly massless neutrinos, born from distant stars, pass through your body every second. They are silent cosmic messengers, almost never interacting.",
-  "reveal_zh": "每秒，亿万无质量的中微子穿透你的身体，它们诞生于遥远星辰。这些寂静的宇宙信使，几乎从不互动。",
-  "meaning_en": "You are a living conduit for an invisible river of the universe's most elusive matter. An intimate connection to the cosmos, beyond our senses.",
-  "meaning_zh": "你亦是宇宙最难以捉摸物质的活导体。这是与宇宙超越感官的亲密连接。",
-  "source": "Particle Physics",
+  "title_en": "Echo of Creation",
+  "title_zh": "创世之声",
+  "reveal_en": "The universe is filled with a faint microwave glow. It's the residual heat from the Big Bang, a whispering echo of creation.",
+  "reveal_zh": "宇宙弥漫着微弱的微波光芒。那是宇宙大爆炸的余温，创世的低语回响。",
+  "meaning_en": "This ancient light traveled for billions of years to reach us. It reveals our cosmic origin, connecting every atom to the universe's fiery birth.",
+  "meaning_zh": "这古老之光穿越亿万年抵达我们。它揭示了我们的宇宙起源，连接每个原子与宇宙的炽热诞生。",
+  "source": "NASA WMAP",
   "visual": {
-    "theme": "Ethereal, microscopic cosmic flow.",
-    "color": "Deep indigo, subtle shimmering silver, hints of faint aurora green.",
-    "motion": "Gentle, continuous stream of tiny, glowing motes silently passing through an indistinct silhouette."
+    "theme": "Deep cosmic stillness, ancient warmth",
+    "color": "Gradient from deep indigo to soft amber",
+    "motion": "Slow, ethereal wave-like pulse"
   }
 }
