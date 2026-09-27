@@ -1,977 +1,642 @@
+/* =========================================================
+   ONE THING
+   Minimal / Dark / Static / One Screen
+   ========================================================= */
+
 :root {
-    --theme: #ffffff;
+    --theme: #7B8CFF;
+    --bg: #050505;
+    --text: rgba(255,255,255,0.92);
+    --muted: rgba(255,255,255,0.58);
+    --faint: rgba(255,255,255,0.34);
 }
+
+
+/* =========================================================
+   RESET
+   ========================================================= */
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     -webkit-tap-highlight-color: transparent;
 }
 
-
 html,
 body {
-    margin: 0;
-
     width: 100%;
     height: 100%;
-    height: 100dvh;
-
+    min-height: 100%;
     overflow: hidden;
+    background: var(--bg);
+}
 
-    background: #020202;
-
-    color: #fff;
-
+body {
+    position: fixed;
+    inset: 0;
     font-family:
         -apple-system,
         BlinkMacSystemFont,
         "Helvetica Neue",
         Arial,
         sans-serif;
+
+    color: var(--text);
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 
-body {
-    min-height: 100dvh;
-}
-
+/* =========================================================
+   MAIN SPACE
+   ========================================================= */
 
 .space {
-
     position: fixed;
-
     inset: 0;
 
     width: 100%;
     height: 100dvh;
 
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
     overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     background:
         radial-gradient(
-            circle at center,
-            rgba(255,255,255,.018),
-            transparent 45%
-        );
+            circle at 50% 45%,
+            rgba(255,255,255,0.025),
+            transparent 42%
+        ),
+        #050505;
 }
 
 
-/* =====================
-ENTRY
-===================== */
+/* =========================================================
+   HOME ORB
+   ========================================================= */
 
-
-.entry {
-
+.orb {
     position: absolute;
 
-    z-index: 20;
+    left: 50%;
+    top: 50%;
 
-
-    font-size: 9px;
-
-    font-weight: 300;
-
-    letter-spacing: 9px;
-
-
-    color:
-        rgba(255,255,255,.55);
-
+    width: 96px;
+    height: 96px;
 
     transform:
-        translateX(5px);
+        translate(-50%, -50%);
 
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition:
+        transform 1.1s cubic-bezier(.22,.61,.36,1),
+        opacity 0.8s ease;
+}
+
+.orb::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            var(--theme) 0%,
+            rgba(255,255,255,0.08) 24%,
+            rgba(255,255,255,0.025) 48%,
+            transparent 72%
+        );
+
+    filter: blur(8px);
+
+    opacity: 0.72;
+
+    animation:
+        breathe 4.8s ease-in-out infinite;
+}
+
+.orb::after {
+    content: "";
+
+    position: absolute;
+    inset: 25px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,255,255,0.82),
+            rgba(255,255,255,0.18) 38%,
+            transparent 72%
+        );
+
+    filter: blur(2px);
+
+    opacity: 0.7;
+}
+
+.orb-inner {
+    position: relative;
+
+    width: 12px;
+    height: 12px;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.9);
+
+    filter: blur(1px);
+
+    box-shadow:
+        0 0 18px var(--theme),
+        0 0 42px var(--theme);
+
+    opacity: 0.78;
+}
+
+
+/* =========================================================
+   HOME ENTRY
+   ========================================================= */
+
+.entry {
+    position: absolute;
+
+    left: 50%;
+    top: calc(50% + 82px);
+
+    transform: translateX(-50%);
 
     cursor: pointer;
 
     user-select: none;
 
+    z-index: 5;
 
     transition:
-        opacity 1.2s ease,
-        transform 1.2s ease;
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.entry span {
+    display: block;
+
+    font-size: 10px;
+    font-weight: 400;
+
+    letter-spacing: 0.34em;
+    text-indent: 0.34em;
+
+    color: rgba(255,255,255,0.42);
+
+    white-space: nowrap;
 }
 
 
-.vanish {
+/* =========================================================
+   DISCOVERY
+   ========================================================= */
+
+.discovery {
+    position: fixed;
+    inset: 0;
+
+    width: 100%;
+    height: 100dvh;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-top: clamp(58px, 10vh, 96px);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 100px;
+
+    text-align: center;
+
+    opacity: 1;
+
+    z-index: 20;
+}
+
+
+/* =========================================================
+   DISCOVERY MINI ORB
+   ========================================================= */
+
+.mini-orb {
+    flex: 0 0 auto;
+
+    width: 46px;
+    height: 46px;
+
+    margin-bottom: 20px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,255,255,0.85) 0%,
+            var(--theme) 18%,
+            rgba(255,255,255,0.08) 42%,
+            transparent 72%
+        );
+
+    filter: blur(0.5px);
+
+    box-shadow:
+        0 0 24px var(--theme),
+        0 0 70px color-mix(
+            in srgb,
+            var(--theme) 35%,
+            transparent
+        );
+
+    animation:
+        discoveryPulse 5s ease-in-out infinite;
+}
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
+
+h1 {
+    flex: 0 0 auto;
+
+    width: 100%;
+    max-width: 320px;
+
+    margin-bottom: 12px;
+
+    font-size: clamp(16px, 4.8vw, 21px);
+
+    line-height: 1.3;
+
+    font-weight: 400;
+
+    letter-spacing: 0.01em;
+
+    color: rgba(255,255,255,0.94);
+}
+
+h1 .english,
+h1 .chinese {
+    display: block;
+}
+
+h1 .chinese {
+    margin-top: 5px;
+
+    font-size: 0.82em;
+
+    color: rgba(255,255,255,0.56);
+
+    letter-spacing: 0.06em;
+}
+
+
+/* =========================================================
+   CONTENT
+   IMPORTANT:
+   HTML uses .text, NOT .content
+   ========================================================= */
+
+.text {
+    flex: 0 1 auto;
+
+    width: 100%;
+    max-width: 300px;
+
+    max-height: 28vh;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+
+    padding: 0;
+}
+
+.text p {
+    width: 100%;
+    max-width: 290px;
+
+    overflow: hidden;
+
+    font-size: 12px;
+
+    line-height: 1.65;
+
+    font-weight: 300;
+
+    color: rgba(255,255,255,0.64);
+
+    text-align: center;
+
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+
+.text p + p {
+    margin-top: 12px;
+}
+
+.text .english,
+.text .chinese {
+    display: block;
+}
+
+.text .chinese {
+    margin-top: 4px;
+
+    color: rgba(255,255,255,0.42);
+
+    font-size: 0.96em;
+}
+
+
+/* =========================================================
+   ACTIONS
+   ========================================================= */
+
+.actions {
+    position: absolute;
+
+    left: 50%;
+
+    bottom:
+        calc(
+            env(safe-area-inset-bottom) + 22px
+        );
+
+    transform: translateX(-50%);
+
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+
+    z-index: 30;
+}
+
+.actions span {
+    display: block;
+
+    min-width: 32px;
+
+    font-size: 9px;
+
+    font-weight: 400;
+
+    letter-spacing: 0.16em;
+
+    color: rgba(255,255,255,0.34);
+
+    cursor: pointer;
+
+    user-select: none;
+
+    transition:
+        color 0.25s ease,
+        opacity 0.25s ease;
+}
+
+.actions span:hover {
+    color: rgba(255,255,255,0.75);
+}
+
+.actions span:active {
+    opacity: 0.5;
+}
+
+
+/* =========================================================
+   HIDDEN
+   ========================================================= */
+
+.hidden {
+    display: none !important;
+}
+
+
+/* =========================================================
+   HOME → DISCOVERY TRANSITION
+   ========================================================= */
+
+.orb.portal {
+    transform:
+        translate(-50%, -50%)
+        scale(16);
 
     opacity: 0;
 
+    transition:
+        transform 1.15s cubic-bezier(.22,.61,.36,1),
+        opacity 1s ease;
+}
+
+.entry.vanish {
+    opacity: 0;
 
     transform:
-        translateY(-15px)
-        translateX(5px);
+        translateX(-50%)
+        translateY(8px);
+
+    pointer-events: none;
 }
 
 
-
-/* =====================
-ORB
-===================== */
-
-
-.orb {
-
-    position: absolute;
-
-
-    width:
-        min(44vw,210px);
-
-    height:
-        min(44vw,210px);
-
-
-    border-radius:50%;
-
-
-    cursor:pointer;
-
-
-    animation:
-
-        breathe
-        8s
-        ease-in-out
-        infinite;
-
-}
-
-
-
-.orb-inner {
-
-
-    width:100%;
-
-    height:100%;
-
-
-    border-radius:50%;
-
-
-    background:
-
-        radial-gradient(
-
-            circle,
-
-            var(--theme)
-
-            0%,
-
-
-            color-mix(
-
-                in srgb,
-
-                var(--theme) 35%,
-
-                transparent
-
-            )
-
-            32%,
-
-
-            transparent
-
-            72%
-
-        );
-
-
-    filter:blur(18px);
-
-}
-
-
+/* =========================================================
+   ANIMATIONS
+   ========================================================= */
 
 @keyframes breathe {
 
     0%,
     100% {
-
-        transform:scale(.94);
-
-        opacity:.45;
-
+        transform: scale(0.86);
+        opacity: 0.48;
     }
-
 
     50% {
-
-        transform:scale(1.12);
-
-        opacity:.9;
-
+        transform: scale(1.08);
+        opacity: 0.82;
     }
-
 }
 
-
-
-
-/* =====================
-PORTAL
-===================== */
-
-
-.portal {
-
-    animation:
-
-        portal
-
-        1.2s
-
-        cubic-bezier(.2,.7,.1,1)
-
-        forwards;
-
-}
-
-
-@keyframes portal {
-
-
-    from {
-
-        transform:scale(1);
-
-        opacity:.9;
-
-    }
-
-
-    to {
-
-        transform:scale(18);
-
-        opacity:0;
-
-    }
-
-}
-
-
-
-/* =====================
-DISCOVERY
-===================== */
-
-
-.discovery {
-
-
-    position:absolute;
-
-    inset:0;
-
-
-    width:100%;
-
-    height:100dvh;
-
-
-    contain:
-        layout
-        paint;
-
-
-    padding:
-
-
-        calc(env(safe-area-inset-top) + 20px)
-
-        24px
-
-
-        calc(env(safe-area-inset-bottom) + 90px);
-
-
-
-    display:flex;
-
-
-    flex-direction:column;
-
-
-    align-items:center;
-
-
-    justify-content:center;
-
-
-    text-align:center;
-
-
-    overflow:hidden;
-
-
-    animation:
-
-
-        revealPage
-
-        1.3s
-
-        cubic-bezier(.2,.7,.1,1);
-
-}
-
-
-
-.hidden {
-
-    display:none;
-
-}
-
-
-
-/* =====================
-MINI ORB
-===================== */
-
-
-.mini-orb {
-
-
-    width:46px;
-
-    height:46px;
-
-
-    flex:none;
-
-
-    border-radius:50%;
-
-
-    background:
-
-
-        radial-gradient(
-
-            circle,
-
-            var(--theme),
-
-            transparent 72%
-
-        );
-
-
-    filter:blur(8px);
-
-
-    margin-bottom:24px;
-
-
-    animation:
-
-
-        miniFloat
-
-        7s
-
-        ease-in-out
-
-        infinite;
-
-}
-
-
-
-
-/* =====================
-TEXT
-===================== */
-
-
-h1 {
-
-
-    max-width:280px;
-
-
-    margin:
-
-        0
-
-        0
-
-        14px;
-
-
-
-    font-size:
-
-        clamp(20px,5vw,26px);
-
-
-
-    line-height:1.25;
-
-
-    font-weight:300;
-
-
-    letter-spacing:2px;
-
-}
-
-
-
-.subtitle {
-
-
-    max-width:290px;
-
-
-    font-size:12px;
-
-
-    line-height:1.5;
-
-
-    color:
-
-
-        rgba(255,255,255,.55);
-
-
-
-    margin-bottom:14px;
-
-}
-
-
-
-p {
-
-
-    max-width:290px;
-
-
-    margin:4px 0;
-
-
-    font-size:12.5px;
-
-
-    line-height:1.55;
-
-
-    font-weight:300;
-
-
-    color:
-
-
-        rgba(255,255,255,.75);
-
-}
-
-
-
-#meaning {
-
-
-    max-width:290px;
-
-
-    margin-top:8px;
-
-
-    font-size:11.5px;
-
-
-    line-height:1.55;
-
-
-    color:
-
-
-        rgba(255,255,255,.38);
-
-}
-
-
-
-.content {
-
-
-    width:100%;
-
-
-    max-height:30vh;
-
-
-    overflow:hidden;
-
-
-    display:flex;
-
-
-    flex-direction:column;
-
-
-    align-items:center;
-
-}
-
-
-
-/* =====================
-ACTIONS
-===================== */
-
-
-.actions {
-
-
-    position:absolute;
-
-
-    left:0;
-
-    right:0;
-
-
-    bottom:
-
-
-        calc(env(safe-area-inset-bottom) + 24px);
-
-
-
-    display:flex;
-
-
-    justify-content:center;
-
-
-    align-items:center;
-
-
-    gap:34px;
-
-
-    font-size:9px;
-
-
-    letter-spacing:4px;
-
-
-    color:
-
-
-        rgba(255,255,255,.32);
-
-}
-
-
-
-.actions span {
-
-
-    cursor:pointer;
-
-    user-select:none;
-
-}
-
-
-
-/* =====================
-CATEGORY
-===================== */
-
-
-body[data-theme="cosmos"] {
-
-
-    background:
-
-
-        radial-gradient(
-
-            circle,
-
-            rgba(70,80,180,.06),
-
-            transparent 48%
-
-        );
-
-}
-
-
-
-body[data-theme="nature"] {
-
-
-    background:
-
-
-        radial-gradient(
-
-            circle,
-
-            rgba(70,150,90,.05),
-
-            transparent 48%
-
-        );
-
-}
-
-
-
-body[data-theme="human"] {
-
-
-    background:
-
-
-        radial-gradient(
-
-            circle,
-
-            rgba(180,120,70,.05),
-
-            transparent 48%
-
-        );
-
-}
-
-
-
-body[data-theme="time"] {
-
-
-    background:
-
-
-        radial-gradient(
-
-            circle,
-
-            rgba(150,160,180,.05),
-
-            transparent 48%
-
-        );
-
-}
-
-
-
-/* =====================
-MOTION
-===================== */
-
-
-@keyframes revealPage {
-
-
-    from {
-
-
-        opacity:0;
-
-
-        transform:
-
-            translateY(20px)
-
-            scale(.98);
-
-
-
-        filter:blur(8px);
-
-    }
-
-
-
-    to {
-
-
-        opacity:1;
-
-
-        transform:
-
-            translateY(0)
-
-            scale(1);
-
-
-
-        filter:blur(0);
-
-    }
-
-}
-
-
-
-@keyframes miniFloat {
-
+@keyframes discoveryPulse {
 
     0%,
     100% {
-
-        transform:translateY(0);
-
+        transform: scale(0.94);
+        opacity: 0.65;
     }
-
 
     50% {
-
-        transform:translateY(-8px);
-
+        transform: scale(1.05);
+        opacity: 0.9;
     }
-
 }
 
 
+/* =========================================================
+   SAFARI / iOS
+   ========================================================= */
 
-
-/* =====================
-SAFARI FIX
-===================== */
-
-
-@supports (-webkit-touch-callout:none) {
-
+@supports (-webkit-touch-callout: none) {
 
     .discovery {
-
-
-        justify-content:flex-start;
-
-
         padding-top:
-
-
             calc(
-
                 env(safe-area-inset-top)
-
-                +
-
-                14vh
-
+                + clamp(54px, 9vh, 88px)
             );
-
 
         padding-bottom:
-
-            120px;
-
+            calc(
+                env(safe-area-inset-bottom)
+                + 90px
+            );
     }
 
-
-
-    .content {
-
-
-        max-height:30vh;
-
+    .text {
+        max-height: 27vh;
     }
-
-
 
     .actions {
-
-
         bottom:
-
-
             calc(
-
                 env(safe-area-inset-bottom)
-
-                +
-
-                18px
-
+                + 18px
             );
-
     }
-
 }
 
 
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
 
-
-/* =====================
-MOBILE
-===================== */
-
-
-@media(max-width:480px){
-
-
-    .orb {
-
-
-        width:180px;
-
-        height:180px;
-
-    }
-
-
-
-    .entry {
-
-
-        font-size:8px;
-
-        letter-spacing:7px;
-
-    }
-
-
+@media (max-height: 700px) {
 
     .discovery {
-
-
-        padding-left:22px;
-
-        padding-right:22px;
-
+        padding-top: 48px;
+        padding-bottom: 90px;
     }
-
-
 
     .mini-orb {
-
-
-        width:42px;
-
-        height:42px;
-
-
-        margin-bottom:22px;
-
+        width: 38px;
+        height: 38px;
+        margin-bottom: 14px;
     }
-
-
 
     h1 {
-
-
-        font-size:22px;
-
-
-        max-width:270px;
-
-
-        margin-bottom:12px;
-
+        margin-bottom: 9px;
+        font-size: 16px;
     }
 
-
-
-    .subtitle {
-
-
-        font-size:12px;
-
+    .text {
+        max-height: 25vh;
     }
 
-
-
-    p {
-
-
-        font-size:12px;
-
-
-        max-width:280px;
-
-
-        line-height:1.5;
-
+    .text p {
+        font-size: 11px;
+        line-height: 1.55;
     }
 
-
-
-    #meaning {
-
-
-        font-size:11px;
-
+    .text p + p {
+        margin-top: 8px;
     }
-
-
-
-    .content {
-
-
-        max-height:28vh;
-
-    }
-
-
 
     .actions {
-
-
-        bottom:
-
-
-            calc(
-
-                env(safe-area-inset-bottom)
-
-                +
-
-                18px
-
-            );
-
+        bottom: 18px;
     }
-
 }
 
 
+/* =========================================================
+   VERY SMALL HEIGHT
+   ========================================================= */
 
-/* =====================
-REDUCE MOTION
-===================== */
+@media (max-height: 600px) {
 
-
-@media(prefers-reduced-motion:reduce){
-
-
-    *,
-    *::before,
-    *::after {
-
-
-        animation-duration:.01ms!important;
-
-
-        animation-iteration-count:1!important;
-
-
-        transition-duration:.01ms!important;
-
+    .discovery {
+        padding-top: 34px;
+        padding-bottom: 80px;
     }
 
+    .mini-orb {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+
+    .text {
+        max-height: 23vh;
+    }
+
+    .text p {
+        font-size: 10px;
+        line-height: 1.45;
+    }
+
+    .text p + p {
+        margin-top: 6px;
+    }
+
+    .actions {
+        bottom: 14px;
+    }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .orb::before,
+    .mini-orb {
+        animation: none;
+    }
+
+    .orb,
+    .entry {
+        transition: none;
+    }
 }
