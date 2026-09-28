@@ -1,16 +1,16 @@
 {
-  "id": "ONE-THING-CMB-001",
-  "category": "COSMOS",
-  "title_en": "Echo of Creation",
-  "title_zh": "创世之声",
-  "reveal_en": "The universe is filled with a faint microwave glow. It's the residual heat from the Big Bang, a whispering echo of creation.",
-  "reveal_zh": "宇宙弥漫着微弱的微波光芒。那是宇宙大爆炸的余温，创世的低语回响。",
-  "meaning_en": "This ancient light traveled for billions of years to reach us. It reveals our cosmic origin, connecting every atom to the universe's fiery birth.",
-  "meaning_zh": "这古老之光穿越亿万年抵达我们。它揭示了我们的宇宙起源，连接每个原子与宇宙的炽热诞生。",
-  "source": "NASA WMAP",
+  "id": "ONETHING-001",
+  "category": "NATURE",
+  "title_en": "Living Light in Deep Seas",
+  "title_zh": "深海生光",
+  "reveal_en": "In the ocean's abyssal depths, countless creatures glow. They craft their own light, illuminating the eternal dark.",
+  "reveal_zh": "深渊之底，万物生辉。它们自造微光，照亮永恒黑暗。",
+  "meaning_en": "This luminous dance is a silent testament to life's resilience. Even in the profoundest void, beauty and purpose find a way to emerge and shine.",
+  "meaning_zh": "生命之光，韧性见证。至深虚空，美与意义亦能绽放。",
+  "source": "Marine Biology",
   "visual": {
-    "theme": "Deep cosmic stillness, ancient warmth",
-    "color": "Gradient from deep indigo to soft amber",
-    "motion": "Slow, ethereal wave-like pulse"
+    "theme": "Ethereal, shimmering, profound",
+    "color": "Deep indigo, electric cyan, soft gold",
+    "motion": "Slow, gentle pulsing, suspended drift"
   }
 }
