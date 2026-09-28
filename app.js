@@ -210,34 +210,73 @@ function escapeHTML(value) {
 
 
 /* =========================
-   VISUAL
+   VISUAL ENGINE
 ========================= */
 
-function applyVisual() {
+const VISUAL_SYSTEMS = {
+    COSMOS:  { theme: "cosmos",  color: "#7B8CFF" },
+    NATURE:  { theme: "nature",  color: "#7FD6A4" },
+    SCIENCE: { theme: "science", color: "#6FD8FF" },
+    HUMAN:   { theme: "human",   color: "#E0A978" },
+    ART:     { theme: "art",     color: "#C49BFF" },
+    CULTURE: { theme: "culture", color: "#D7B98A" },
+    TIME:    { theme: "time",    color: "#AEB8C8" },
+    LIFE:    { theme: "life",    color: "#91E6C1" }
+};
+
+function getVisualSystem() {
+    const category =
+        String(data?.category || "COSMOS").toUpperCase();
+
+    const preset =
+        VISUAL_SYSTEMS[category] ||
+        VISUAL_SYSTEMS.COSMOS;
+
+    const suppliedColor =
+        data?.visual?.color;
+
+    const suppliedTheme =
+        String(
+            data?.visual?.theme || ""
+        ).toLowerCase();
 
     const color =
-        typeof data.visual?.color === "string"
-            ? data.visual.color
-            : "#ffffff";
+        typeof suppliedColor === "string" &&
+        /^#[0-9a-fA-F]{6}$/.test(
+            suppliedColor.trim()
+        )
+            ? suppliedColor.trim()
+            : preset.color;
 
+    const allowedThemes =
+        new Set(
+            Object.values(VISUAL_SYSTEMS)
+                .map(v => v.theme)
+        );
 
     const theme =
-        typeof data.visual?.theme === "string"
-            ? data.visual.theme
-            : "cosmos";
+        allowedThemes.has(suppliedTheme)
+            ? suppliedTheme
+            : preset.theme;
 
+    return {
+        theme,
+        color
+    };
+}
+
+function applyVisual() {
+    const visual =
+        getVisualSystem();
 
     document.documentElement.style.setProperty(
         "--theme",
-        color
+        visual.color
     );
 
-
     document.body.dataset.theme =
-        theme.toLowerCase();
-
+        visual.theme;
 }
-
 
 /* =========================
    ENTER DISCOVERY
@@ -245,32 +284,42 @@ function applyVisual() {
 
 function enterDiscovery() {
 
-    if (opened) {
+    if (opened || !data) {
         return;
     }
 
     opened = true;
 
+    document.body.classList.add(
+        "opening"
+    );
 
-    orb.classList.add("portal");
+    orb.classList.add(
+        "portal"
+    );
 
-    entry.classList.add("vanish");
-
+    entry.classList.add(
+        "vanish"
+    );
 
     setTimeout(() => {
 
-        orb.style.display = "none";
+        orb.style.display =
+            "none";
 
-        entry.style.display = "none";
+        entry.style.display =
+            "none";
 
         discovery.classList.remove(
             "hidden"
         );
 
-    }, 1200);
+        document.body.classList.remove(
+            "opening"
+        );
 
+    }, 900);
 }
-
 
 /* =========================
    EVENTS

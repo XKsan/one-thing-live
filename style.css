@@ -515,3 +515,506 @@ body[data-theme="time"] .mini-orb {
         transition-duration: .01ms !important;
     }
 }
+/* ============================================================
+   FINAL VISUAL ENGINE
+============================================================ */
+
+.orb,
+.orb-inner,
+.mini-orb,
+.discovery::before,
+.discovery::after {
+    will-change:
+        transform,
+        opacity,
+        filter;
+}
+
+.orb-inner {
+    animation:
+        orbGlow
+        6s ease-in-out infinite;
+}
+
+@keyframes orbGlow {
+
+    0%,
+    100% {
+        filter: blur(18px);
+        opacity: .72;
+    }
+
+    50% {
+        filter: blur(24px);
+        opacity: 1;
+    }
+}
+
+
+/* DISCOVERY FIELD */
+
+.discovery::before,
+.discovery::after {
+    content: "";
+    position: absolute;
+    inset: -18%;
+    z-index: 0;
+    pointer-events: none;
+    opacity: .5;
+}
+
+.discovery::before {
+
+    background:
+        radial-gradient(
+            circle at 50% 46%,
+            color-mix(
+                in srgb,
+                var(--theme) 11%,
+                transparent
+            ),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 18% 30%,
+            color-mix(
+                in srgb,
+                var(--theme) 5%,
+                transparent
+            ),
+            transparent 24%
+        ),
+        radial-gradient(
+            circle at 82% 70%,
+            color-mix(
+                in srgb,
+                var(--theme) 4%,
+                transparent
+            ),
+            transparent 28%
+        );
+
+    filter: blur(28px);
+
+    animation:
+        fieldDrift
+        18s ease-in-out infinite alternate;
+}
+
+.discovery::after {
+
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            transparent 0 23%,
+            color-mix(
+                in srgb,
+                var(--theme) 3%,
+                transparent
+            ) 42%,
+            transparent 70%
+        );
+
+    filter: blur(1px);
+
+    animation:
+        fieldBreath
+        9s ease-in-out infinite;
+}
+
+.discovery .mini-orb,
+.discovery h1,
+.discovery .text,
+.discovery .actions {
+    position: relative;
+    z-index: 1;
+}
+
+
+@keyframes fieldDrift {
+
+    0% {
+        transform:
+            translate3d(-2%, 1%, 0)
+            scale(1);
+    }
+
+    50% {
+        transform:
+            translate3d(2%, -2%, 0)
+            scale(1.04);
+    }
+
+    100% {
+        transform:
+            translate3d(-1%, 2%, 0)
+            scale(1.02);
+    }
+}
+
+
+@keyframes fieldBreath {
+
+    0%,
+    100% {
+        opacity: .22;
+        transform: scale(.96);
+    }
+
+    50% {
+        opacity: .55;
+        transform: scale(1.04);
+    }
+}
+
+
+/* COSMOS */
+
+body[data-theme="cosmos"]
+.discovery::before {
+
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            color-mix(
+                in srgb,
+                var(--theme) 6%,
+                transparent
+            ),
+            transparent 20%
+        ),
+        radial-gradient(
+            circle at 80% 75%,
+            color-mix(
+                in srgb,
+                var(--theme) 7%,
+                transparent
+            ),
+            transparent 24%
+        ),
+        radial-gradient(
+            circle at 50% 50%,
+            color-mix(
+                in srgb,
+                var(--theme) 8%,
+                transparent
+            ),
+            transparent 34%
+        );
+
+    animation:
+        cosmosField
+        22s linear infinite;
+}
+
+
+/* NATURE */
+
+body[data-theme="nature"]
+.discovery::before {
+
+    border-radius:
+        48% 52% 55% 45%;
+
+    animation:
+        organicField
+        13s ease-in-out infinite;
+}
+
+
+/* SCIENCE */
+
+body[data-theme="science"]
+.discovery::before {
+
+    background:
+        repeating-radial-gradient(
+            circle at 50% 50%,
+            color-mix(
+                in srgb,
+                var(--theme) 4%,
+                transparent
+            ) 0 1px,
+            transparent 1px 38px
+        );
+
+    animation:
+        scienceField
+        16s linear infinite;
+}
+
+
+/* HUMAN */
+
+body[data-theme="human"]
+.discovery::before {
+
+    animation:
+        humanField
+        8s ease-in-out infinite;
+}
+
+
+/* ART */
+
+body[data-theme="art"]
+.discovery::before {
+
+    background:
+        radial-gradient(
+            ellipse at 30% 60%,
+            color-mix(
+                in srgb,
+                var(--theme) 8%,
+                transparent
+            ),
+            transparent 32%
+        ),
+        radial-gradient(
+            ellipse at 70% 40%,
+            color-mix(
+                in srgb,
+                var(--theme) 7%,
+                transparent
+            ),
+            transparent 30%
+        );
+
+    animation:
+        artField
+        16s ease-in-out infinite alternate;
+}
+
+
+/* CULTURE */
+
+body[data-theme="culture"]
+.discovery::before {
+
+    animation:
+        cultureField
+        24s ease-in-out infinite alternate;
+}
+
+
+/* TIME */
+
+body[data-theme="time"]
+.discovery::before {
+
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            transparent 0 25%,
+            color-mix(
+                in srgb,
+                var(--theme) 4%,
+                transparent
+            ) 26% 27%,
+            transparent 28% 45%,
+            color-mix(
+                in srgb,
+                var(--theme) 3%,
+                transparent
+            ) 46% 47%,
+            transparent 48%
+        );
+
+    animation:
+        timeField
+        20s linear infinite;
+}
+
+
+/* LIFE */
+
+body[data-theme="life"]
+.discovery::before {
+
+    animation:
+        lifeField
+        10s ease-in-out infinite;
+}
+
+
+@keyframes cosmosField {
+
+    from {
+        transform:
+            rotate(0deg)
+            scale(1.02);
+    }
+
+    to {
+        transform:
+            rotate(360deg)
+            scale(1.02);
+    }
+}
+
+
+@keyframes organicField {
+
+    0%,
+    100% {
+        transform:
+            scale(.96)
+            rotate(-2deg);
+
+        border-radius:
+            46% 54% 52% 48%;
+    }
+
+    50% {
+        transform:
+            scale(1.05)
+            rotate(3deg);
+
+        border-radius:
+            58% 42% 46% 54%;
+    }
+}
+
+
+@keyframes scienceField {
+
+    from {
+        transform:
+            rotate(0deg)
+            scale(1);
+    }
+
+    to {
+        transform:
+            rotate(-360deg)
+            scale(1.08);
+    }
+}
+
+
+@keyframes humanField {
+
+    0%,
+    100% {
+        transform: scale(.94);
+        opacity: .25;
+    }
+
+    50% {
+        transform: scale(1.08);
+        opacity: .62;
+    }
+}
+
+
+@keyframes artField {
+
+    0% {
+        transform:
+            translate3d(-3%, 2%, 0)
+            rotate(-3deg)
+            scale(1);
+    }
+
+    100% {
+        transform:
+            translate3d(3%, -2%, 0)
+            rotate(3deg)
+            scale(1.08);
+    }
+}
+
+
+@keyframes cultureField {
+
+    0% {
+        transform:
+            translate3d(-1%, 0, 0)
+            scale(1);
+    }
+
+    100% {
+        transform:
+            translate3d(1%, -1%, 0)
+            scale(1.05);
+    }
+}
+
+
+@keyframes timeField {
+
+    from {
+        transform:
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            rotate(360deg);
+    }
+}
+
+
+@keyframes lifeField {
+
+    0%,
+    100% {
+        transform:
+            scale(.94);
+
+        border-radius: 50%;
+    }
+
+    50% {
+        transform:
+            scale(1.07);
+
+        border-radius:
+            43% 57% 51% 49%;
+    }
+}
+
+
+/* PORTAL */
+
+.orb.portal {
+
+    animation:
+        portalFinal
+        .9s
+        cubic-bezier(.2,.7,.1,1)
+        forwards;
+}
+
+
+@keyframes portalFinal {
+
+    0% {
+        transform: scale(1);
+        opacity: .92;
+        filter: blur(0);
+    }
+
+    62% {
+        transform: scale(7);
+        opacity: .32;
+        filter: blur(4px);
+    }
+
+    100% {
+        transform: scale(15);
+        opacity: 0;
+        filter: blur(18px);
+    }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    .orb-inner,
+    .discovery::before,
+    .discovery::after {
+
+        animation: none !important;
+    }
+}
