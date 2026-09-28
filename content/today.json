@@ -1,16 +1,16 @@
 {
-  "id": "cosmos_starlight_001",
+  "id": "COS001",
   "category": "COSMOS",
   "title_en": "Starlight's Ancient Journey",
   "title_zh": "星光古旅",
-  "reveal_en": "The starlight reaching your eyes tonight left its source millions of years ago. You are seeing the past, a ghost of its former self.",
-  "reveal_zh": "今夜入你眼的星光，亿万年前已启程。你所见是它的过去，一个遥远的幽灵。",
-  "meaning_en": "Every twinkle is a journey through time and space. The universe is a vast album, showing us moments that have already passed, forever preserved in light.",
-  "meaning_zh": "每一次闪烁都是时空之旅。宇宙是一本宏大相册，展现我们已逝瞬间，光中永恒留存。",
-  "source": "Astronomy",
+  "reveal_en": "The starlight reaching your eyes tonight left its star millennia ago. You are seeing the past, illuminated.",
+  "reveal_zh": "今夜星光，千年前已启程。你正凝视着，被点亮的往昔。",
+  "meaning_en": "Every twinkle is a whisper from a bygone era. To observe the cosmos is to embark on a journey through time itself, connecting us to the universe's deep history.",
+  "meaning_zh": "每颗星光都是昔日耳语。凝视宇宙，即是穿越时空，与深邃历史相连。",
+  "source": "Astrophysics",
   "visual": {
-    "theme": "Infinite cosmic ocean, deep time.",
-    "color": "Deep indigo, shifting to ethereal violet and silver.",
-    "motion": "Slow, almost imperceptible drift of ancient light, like dust motes in a vast darkness."
+    "theme": "Cosmic Serenity",
+    "color": "Deep Indigo, Silver",
+    "motion": "Slow, ethereal drift of stardust"
   }
 }
