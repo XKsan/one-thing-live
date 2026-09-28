@@ -1908,3 +1908,9 @@ body[data-theme="life"]
         animation: none !important;
     }
 }
+
+/* FINAL — move actions below content */
+.actions {
+    transform: translateY(clamp(42px, 6vh, 64px));
+}
+
