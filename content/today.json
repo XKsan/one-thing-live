@@ -1,16 +1,16 @@
 {
-  "id": "cosmos_stardust_001",
+  "id": "cosmos_starlight_001",
   "category": "COSMOS",
-  "title_en": "We are Stardust.",
-  "title_zh": "我们是星尘。",
-  "reveal_en": "Every atom in your body, from the carbon in your cells to the iron in your blood, was forged in the heart of an ancient, exploding star.",
-  "reveal_zh": "你体内每个原子，从细胞的碳到血液的铁，都诞生于古老爆炸恒星的核心。",
-  "meaning_en": "This cosmic lineage connects us to the universe's origin, making us literally children of the stars. It evokes wonder, humility, and a profound sense of belonging.",
-  "meaning_zh": "这种宇宙血统将我们与宇宙起源相连，使我们成为真正的星辰之子。它唤起惊奇、谦逊和深刻的归属感。",
-  "source": "Astrophysics",
+  "title_en": "Starlight's Ancient Journey",
+  "title_zh": "星光古旅",
+  "reveal_en": "The starlight reaching your eyes tonight left its source millions of years ago. You are seeing the past, a ghost of its former self.",
+  "reveal_zh": "今夜入你眼的星光，亿万年前已启程。你所见是它的过去，一个遥远的幽灵。",
+  "meaning_en": "Every twinkle is a journey through time and space. The universe is a vast album, showing us moments that have already passed, forever preserved in light.",
+  "meaning_zh": "每一次闪烁都是时空之旅。宇宙是一本宏大相册，展现我们已逝瞬间，光中永恒留存。",
+  "source": "Astronomy",
   "visual": {
-    "theme": "Cosmic birth, origin, connection",
-    "color": "Deep indigo, shimmering gold, faint nebulae",
-    "motion": "Slow, ethereal drift of luminous particles, subtle pulsating light"
+    "theme": "Infinite cosmic ocean, deep time.",
+    "color": "Deep indigo, shifting to ethereal violet and silver.",
+    "motion": "Slow, almost imperceptible drift of ancient light, like dust motes in a vast darkness."
   }
 }
