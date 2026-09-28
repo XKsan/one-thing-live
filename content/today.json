@@ -1,16 +1,16 @@
 {
-  "id": "earth_hum_01",
-  "category": "SCIENCE",
-  "title_en": "Earth's Inaudible Symphony",
-  "title_zh": "地球的无声之歌",
-  "reveal_en": "Our planet continuously vibrates with a deep, inaudible hum. It’s a constant, subtle symphony of seismic waves always moving.",
-  "reveal_zh": "我们的星球持续发出深沉、人耳听不见的嗡鸣。这是地震波奏响的无形交响。",
-  "meaning_en": "This constant vibration reveals Earth as a living, dynamic entity. A powerful, unseen force quietly shapes our world beneath our feet.",
-  "meaning_zh": "这持续的震动揭示地球是一个鲜活的、动态的实体。一股强大、无形的力量正悄然塑造着我们的世界。",
-  "source": "Geophysics",
+  "id": "cosmos_stardust_001",
+  "category": "COSMOS",
+  "title_en": "We are Stardust.",
+  "title_zh": "我们是星尘。",
+  "reveal_en": "Every atom in your body, from the carbon in your cells to the iron in your blood, was forged in the heart of an ancient, exploding star.",
+  "reveal_zh": "你体内每个原子，从细胞的碳到血液的铁，都诞生于古老爆炸恒星的核心。",
+  "meaning_en": "This cosmic lineage connects us to the universe's origin, making us literally children of the stars. It evokes wonder, humility, and a profound sense of belonging.",
+  "meaning_zh": "这种宇宙血统将我们与宇宙起源相连，使我们成为真正的星辰之子。它唤起惊奇、谦逊和深刻的归属感。",
+  "source": "Astrophysics",
   "visual": {
-    "theme": "Deep Earth Resonance",
-    "color": "Subtle deep blue and purple gradient, with faint green undertones",
-    "motion": "Slow, barely perceptible ripple effect, like liquid, emanating from the center. Faint, pulsing light."
+    "theme": "Cosmic birth, origin, connection",
+    "color": "Deep indigo, shimmering gold, faint nebulae",
+    "motion": "Slow, ethereal drift of luminous particles, subtle pulsating light"
   }
 }
