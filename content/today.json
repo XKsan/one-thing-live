@@ -1,16 +1,16 @@
 {
-  "id": "ONETHING-001",
-  "category": "NATURE",
-  "title_en": "Living Light in Deep Seas",
-  "title_zh": "深海生光",
-  "reveal_en": "In the ocean's abyssal depths, countless creatures glow. They craft their own light, illuminating the eternal dark.",
-  "reveal_zh": "深渊之底，万物生辉。它们自造微光，照亮永恒黑暗。",
-  "meaning_en": "This luminous dance is a silent testament to life's resilience. Even in the profoundest void, beauty and purpose find a way to emerge and shine.",
-  "meaning_zh": "生命之光，韧性见证。至深虚空，美与意义亦能绽放。",
-  "source": "Marine Biology",
+  "id": "earth_hum_01",
+  "category": "SCIENCE",
+  "title_en": "Earth's Inaudible Symphony",
+  "title_zh": "地球的无声之歌",
+  "reveal_en": "Our planet continuously vibrates with a deep, inaudible hum. It’s a constant, subtle symphony of seismic waves always moving.",
+  "reveal_zh": "我们的星球持续发出深沉、人耳听不见的嗡鸣。这是地震波奏响的无形交响。",
+  "meaning_en": "This constant vibration reveals Earth as a living, dynamic entity. A powerful, unseen force quietly shapes our world beneath our feet.",
+  "meaning_zh": "这持续的震动揭示地球是一个鲜活的、动态的实体。一股强大、无形的力量正悄然塑造着我们的世界。",
+  "source": "Geophysics",
   "visual": {
-    "theme": "Ethereal, shimmering, profound",
-    "color": "Deep indigo, electric cyan, soft gold",
-    "motion": "Slow, gentle pulsing, suspended drift"
+    "theme": "Deep Earth Resonance",
+    "color": "Subtle deep blue and purple gradient, with faint green undertones",
+    "motion": "Slow, barely perceptible ripple effect, like liquid, emanating from the center. Faint, pulsing light."
   }
 }
