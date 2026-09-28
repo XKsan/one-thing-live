@@ -1522,3 +1522,389 @@ body[data-theme="life"]
         animation: none !important;
     }
 }
+
+/* ============================================================
+   ONE THING — FINAL VISUAL LOOP
+============================================================ */
+
+.orb-inner {
+    animation:
+        orbGlow
+        6s ease-in-out infinite;
+}
+
+@keyframes orbGlow {
+    0%, 100% {
+        transform: scale(.94);
+        opacity: .72;
+        filter: blur(18px);
+    }
+
+    50% {
+        transform: scale(1.08);
+        opacity: 1;
+        filter: blur(24px);
+    }
+}
+
+.discovery {
+    isolation: isolate;
+}
+
+.discovery::before,
+.discovery::after {
+    content: "";
+    position: absolute;
+    inset: -20%;
+    pointer-events: none;
+    z-index: -1;
+    will-change: transform, opacity;
+}
+
+.discovery::before {
+    background:
+        radial-gradient(
+            circle at 50% 45%,
+            color-mix(
+                in srgb,
+                var(--theme) 10%,
+                transparent
+            ),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 20% 25%,
+            color-mix(
+                in srgb,
+                var(--theme) 5%,
+                transparent
+            ),
+            transparent 24%
+        ),
+        radial-gradient(
+            circle at 80% 75%,
+            color-mix(
+                in srgb,
+                var(--theme) 5%,
+                transparent
+            ),
+            transparent 26%
+        );
+
+    filter: blur(30px);
+    animation:
+        visualDrift
+        20s ease-in-out infinite alternate;
+}
+
+.discovery::after {
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            transparent 0 24%,
+            color-mix(
+                in srgb,
+                var(--theme) 3%,
+                transparent
+            ) 42%,
+            transparent 70%
+        );
+
+    animation:
+        visualBreath
+        9s ease-in-out infinite;
+}
+
+.discovery.revealed {
+    animation:
+        discoveryAppear
+        1.2s
+        cubic-bezier(.2,.7,.2,1)
+        both;
+}
+
+@keyframes discoveryAppear {
+    from {
+        opacity: 0;
+        transform: scale(.985);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes visualDrift {
+    0% {
+        transform:
+            translate3d(-2%, 1%, 0)
+            scale(1);
+    }
+
+    100% {
+        transform:
+            translate3d(2%, -2%, 0)
+            scale(1.06);
+    }
+}
+
+@keyframes visualBreath {
+    0%, 100% {
+        opacity: .22;
+        transform: scale(.96);
+    }
+
+    50% {
+        opacity: .58;
+        transform: scale(1.05);
+    }
+}
+
+body[data-theme="cosmos"]
+.discovery::before {
+    animation:
+        cosmosMotion
+        24s
+        linear
+        infinite;
+}
+
+@keyframes cosmosMotion {
+    from {
+        transform:
+            rotate(0deg)
+            scale(1.02);
+    }
+
+    to {
+        transform:
+            rotate(360deg)
+            scale(1.02);
+    }
+}
+
+body[data-theme="nature"]
+.discovery::before {
+    animation:
+        natureMotion
+        12s
+        ease-in-out
+        infinite;
+}
+
+@keyframes natureMotion {
+    0%, 100% {
+        transform:
+            scale(.96)
+            rotate(-2deg);
+        border-radius:
+            46% 54% 52% 48%;
+    }
+
+    50% {
+        transform:
+            scale(1.06)
+            rotate(3deg);
+        border-radius:
+            58% 42% 46% 54%;
+    }
+}
+
+body[data-theme="science"]
+.discovery::before {
+    background:
+        repeating-radial-gradient(
+            circle at 50% 50%,
+            color-mix(
+                in srgb,
+                var(--theme) 4%,
+                transparent
+            ) 0 1px,
+            transparent 1px 40px
+        );
+
+    animation:
+        scienceMotion
+        18s
+        linear
+        infinite;
+}
+
+@keyframes scienceMotion {
+    from {
+        transform:
+            rotate(0deg)
+            scale(1);
+    }
+
+    to {
+        transform:
+            rotate(-360deg)
+            scale(1.08);
+    }
+}
+
+body[data-theme="human"]
+.discovery::before {
+    animation:
+        humanMotion
+        8s
+        ease-in-out
+        infinite;
+}
+
+@keyframes humanMotion {
+    0%, 100% {
+        opacity: .22;
+        transform: scale(.94);
+    }
+
+    50% {
+        opacity: .62;
+        transform: scale(1.08);
+    }
+}
+
+body[data-theme="art"]
+.discovery::before {
+    animation:
+        artMotion
+        15s
+        ease-in-out
+        infinite alternate;
+}
+
+@keyframes artMotion {
+    from {
+        transform:
+            translate3d(-3%, 2%, 0)
+            rotate(-3deg)
+            scale(1);
+    }
+
+    to {
+        transform:
+            translate3d(3%, -2%, 0)
+            rotate(3deg)
+            scale(1.08);
+    }
+}
+
+body[data-theme="culture"]
+.discovery::before {
+    animation:
+        cultureMotion
+        24s
+        ease-in-out
+        infinite alternate;
+}
+
+@keyframes cultureMotion {
+    from {
+        transform:
+            translate3d(-1%, 0, 0)
+            scale(1);
+    }
+
+    to {
+        transform:
+            translate3d(1%, -1%, 0)
+            scale(1.05);
+    }
+}
+
+body[data-theme="time"]
+.discovery::before {
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            transparent 0 25%,
+            color-mix(
+                in srgb,
+                var(--theme) 4%,
+                transparent
+            ) 26% 27%,
+            transparent 28% 45%,
+            color-mix(
+                in srgb,
+                var(--theme) 3%,
+                transparent
+            ) 46% 47%,
+            transparent 48%
+        );
+
+    animation:
+        timeMotion
+        20s
+        linear
+        infinite;
+}
+
+@keyframes timeMotion {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body[data-theme="life"]
+.discovery::before {
+    animation:
+        lifeMotion
+        10s
+        ease-in-out
+        infinite;
+}
+
+@keyframes lifeMotion {
+    0%, 100% {
+        transform: scale(.94);
+        border-radius: 50%;
+    }
+
+    50% {
+        transform: scale(1.07);
+        border-radius:
+            43% 57% 51% 49%;
+    }
+}
+
+.orb.portal {
+    animation:
+        portalFinal
+        .9s
+        cubic-bezier(.2,.7,.1,1)
+        forwards;
+}
+
+@keyframes portalFinal {
+    0% {
+        transform: scale(1);
+        opacity: .92;
+        filter: blur(0);
+    }
+
+    60% {
+        transform: scale(7);
+        opacity: .34;
+        filter: blur(4px);
+    }
+
+    100% {
+        transform: scale(15);
+        opacity: 0;
+        filter: blur(18px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .orb-inner,
+    .discovery::before,
+    .discovery::after {
+        animation: none !important;
+    }
+}
