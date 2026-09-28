@@ -1909,8 +1909,16 @@ body[data-theme="life"]
     }
 }
 
-/* FINAL — move actions below content */
-.actions {
-    transform: translateY(clamp(42px, 6vh, 64px));
+/* FINAL — actions clear of content */
+.discovery .actions {
+    position: relative !important;
+    z-index: 20 !important;
+    margin-top: clamp(48px, 7vh, 72px) !important;
+    transform: none !important;
+    flex-shrink: 0;
 }
 
+.discovery .text {
+    position: relative;
+    z-index: 5;
+}
