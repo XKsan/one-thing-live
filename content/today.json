@@ -1,16 +1,16 @@
 {
-  "id": "COS001",
+  "id": "20240723_C001",
   "category": "COSMOS",
-  "title_en": "Starlight's Ancient Journey",
-  "title_zh": "星光古旅",
-  "reveal_en": "The starlight reaching your eyes tonight left its star millennia ago. You are seeing the past, illuminated.",
-  "reveal_zh": "今夜星光，千年前已启程。你正凝视着，被点亮的往昔。",
-  "meaning_en": "Every twinkle is a whisper from a bygone era. To observe the cosmos is to embark on a journey through time itself, connecting us to the universe's deep history.",
-  "meaning_zh": "每颗星光都是昔日耳语。凝视宇宙，即是穿越时空，与深邃历史相连。",
-  "source": "Astrophysics",
+  "title_en": "Ancient Light's Journey",
+  "title_zh": "古老星光之旅",
+  "reveal_en": "The stars you gaze upon are often long gone. Their light, traveling across light-years, finally reaches your eye.",
+  "reveal_zh": "你凝望的星辰，或许早已消逝。它们的光，跨越光年，此刻才抵达你的双眸。",
+  "meaning_en": "Every twinkle is a journey through time. You are seeing history, touching the past with your eyes, connecting to distant cosmic echoes.",
+  "meaning_zh": "每次闪烁都是一场时光之旅。你目睹着历史，用双眼触碰过去，连接遥远的宇宙回响。",
+  "source": "Starlight Physics",
   "visual": {
     "theme": "Cosmic Serenity",
-    "color": "Deep Indigo, Silver",
-    "motion": "Slow, ethereal drift of stardust"
+    "color": "Deep Indigo, Starry Gold",
+    "motion": "Slow, gentle shimmer of distant light"
   }
 }
