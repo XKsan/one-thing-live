@@ -1,16 +1,16 @@
 {
-  "id": "20240723_C001",
-  "category": "COSMOS",
-  "title_en": "Ancient Light's Journey",
-  "title_zh": "古老星光之旅",
-  "reveal_en": "The stars you gaze upon are often long gone. Their light, traveling across light-years, finally reaches your eye.",
-  "reveal_zh": "你凝望的星辰，或许早已消逝。它们的光，跨越光年，此刻才抵达你的双眸。",
-  "meaning_en": "Every twinkle is a journey through time. You are seeing history, touching the past with your eyes, connecting to distant cosmic echoes.",
-  "meaning_zh": "每次闪烁都是一场时光之旅。你目睹着历史，用双眼触碰过去，连接遥远的宇宙回响。",
-  "source": "Starlight Physics",
+  "id": "N001",
+  "category": "NATURE",
+  "title_en": "Forest's Hidden Conversation",
+  "title_zh": "森林深处对话",
+  "reveal_en": "Trees in a forest communicate. They share nutrients and warnings through a vast, hidden fungal network beneath the soil.",
+  "reveal_zh": "森林中的树木会“交谈”。它们通过地下菌丝网络交换养分与警告。",
+  "meaning_en": "Beneath our feet lies an invisible world of connection. Life thrives through silent cooperation, reminding us of nature's profound, hidden intelligence and unity.",
+  "meaning_zh": "脚下是看不见的连接世界。生命通过无声协作蓬勃发展，提醒我们自然深邃、隐藏的智慧与合一。",
+  "source": "Mycorrhizal research",
   "visual": {
-    "theme": "Cosmic Serenity",
-    "color": "Deep Indigo, Starry Gold",
-    "motion": "Slow, gentle shimmer of distant light"
+    "theme": "Organic, hidden depths, interconnectedness.",
+    "color": "Deep earth tones, luminous mycelium glow.",
+    "motion": "Gentle pulsing light, subtle root-like animations."
   }
 }
