@@ -1,16 +1,16 @@
 {
-  "id": "N001",
-  "category": "NATURE",
-  "title_en": "Forest's Hidden Conversation",
-  "title_zh": "森林深处对话",
-  "reveal_en": "Trees in a forest communicate. They share nutrients and warnings through a vast, hidden fungal network beneath the soil.",
-  "reveal_zh": "森林中的树木会“交谈”。它们通过地下菌丝网络交换养分与警告。",
-  "meaning_en": "Beneath our feet lies an invisible world of connection. Life thrives through silent cooperation, reminding us of nature's profound, hidden intelligence and unity.",
-  "meaning_zh": "脚下是看不见的连接世界。生命通过无声协作蓬勃发展，提醒我们自然深邃、隐藏的智慧与合一。",
-  "source": "Mycorrhizal research",
+  "id": "COS-20231027-001",
+  "category": "COSMOS",
+  "title_en": "Ancient Light, Present Gaze",
+  "title_zh": "亘古之光，当下凝望",
+  "reveal_en": "The starlight reaching us tonight began its journey eons ago. We gaze not at what is, but a luminous whisper from the universe's distant past.",
+  "reveal_zh": "今夜星光，亿万年前已启程。我们凝视的，是宇宙远古的回响。",
+  "meaning_en": "To look up is to travel through time. Each twinkling point connects us to the universe's deep memory, reminding us of our place in an unfolding cosmic story, both fleeting and eternal.",
+  "meaning_zh": "仰望即是穿越时空。每颗星光连接着宇宙深处的记忆，提醒我们，在浩瀚的宇宙史诗中，我们的存在既短暂又永恒。",
+  "source": "Stargazing",
   "visual": {
-    "theme": "Organic, hidden depths, interconnectedness.",
-    "color": "Deep earth tones, luminous mycelium glow.",
-    "motion": "Gentle pulsing light, subtle root-like animations."
+    "theme": "Cosmic vastness, temporal journey",
+    "color": "Deep navy, ethereal violet, celestial gold",
+    "motion": "Slow, gentle drift of luminous particles, subtle stellar pulse"
   }
 }
