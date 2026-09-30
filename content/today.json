@@ -1,16 +1,16 @@
 {
-  "id": "NATURE_001",
-  "category": "NATURE",
-  "title_en": "The Forest's Hidden Mind",
-  "title_zh": "森林的隐秘心智",
-  "reveal_en": "Beneath your feet, an ancient network thrives. Trees share wisdom and resources through a vast fungal internet.",
-  "reveal_zh": "脚下，古老网络蓬勃生长。树木通过庞大真菌网络共享智慧与资源。",
-  "meaning_en": "This unseen connection reveals nature's profound unity. Every living thing is part of a silent, symbiotic dance.",
-  "meaning_zh": "这种无形连接揭示了自然的深刻统一。万物皆是无声共生之舞的一部分。",
-  "source": "Forest Ecology",
+  "id": "C001",
+  "category": "COSMOS",
+  "title_en": "Starlight's Ancient Journey",
+  "title_zh": "遥远星光",
+  "reveal_en": "The light reaching your eyes tonight left its star millions of years ago. You are seeing the universe as it once was, not as it is now.",
+  "reveal_zh": "今夜星光，穿越亿万年时空而来。你所见的宇宙，是过往的景象，而非当下。",
+  "meaning_en": "Every twinkling star is a messenger from the past. It's a profound connection to cosmic history, reminding us of time's immensity and our brief, beautiful presence within it.",
+  "meaning_zh": "每颗闪烁的星辰，都是来自过去的信使。它连接着宇宙的深邃历史，提醒我们时间的浩瀚，以及我们短暂而美好的存在。",
+  "source": "Cosmic Insight",
   "visual": {
-    "theme": "Subterranean forest pulse",
-    "color": "Deep moss green, luminous amber veins",
-    "motion": "Slow, gentle bioluminescent flow"
+    "theme": "Infinite night sky, profound depth",
+    "color": "Deep indigo, subtle shimmering silver, hints of cosmic dust",
+    "motion": "Slow, ethereal drift of stardust, gentle pulsing of distant light"
   }
 }
