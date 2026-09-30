@@ -1,16 +1,16 @@
 {
-  "id": "COS-20231027-001",
-  "category": "COSMOS",
-  "title_en": "Ancient Light, Present Gaze",
-  "title_zh": "亘古之光，当下凝望",
-  "reveal_en": "The starlight reaching us tonight began its journey eons ago. We gaze not at what is, but a luminous whisper from the universe's distant past.",
-  "reveal_zh": "今夜星光，亿万年前已启程。我们凝视的，是宇宙远古的回响。",
-  "meaning_en": "To look up is to travel through time. Each twinkling point connects us to the universe's deep memory, reminding us of our place in an unfolding cosmic story, both fleeting and eternal.",
-  "meaning_zh": "仰望即是穿越时空。每颗星光连接着宇宙深处的记忆，提醒我们，在浩瀚的宇宙史诗中，我们的存在既短暂又永恒。",
-  "source": "Stargazing",
+  "id": "NATURE_001",
+  "category": "NATURE",
+  "title_en": "The Forest's Hidden Mind",
+  "title_zh": "森林的隐秘心智",
+  "reveal_en": "Beneath your feet, an ancient network thrives. Trees share wisdom and resources through a vast fungal internet.",
+  "reveal_zh": "脚下，古老网络蓬勃生长。树木通过庞大真菌网络共享智慧与资源。",
+  "meaning_en": "This unseen connection reveals nature's profound unity. Every living thing is part of a silent, symbiotic dance.",
+  "meaning_zh": "这种无形连接揭示了自然的深刻统一。万物皆是无声共生之舞的一部分。",
+  "source": "Forest Ecology",
   "visual": {
-    "theme": "Cosmic vastness, temporal journey",
-    "color": "Deep navy, ethereal violet, celestial gold",
-    "motion": "Slow, gentle drift of luminous particles, subtle stellar pulse"
+    "theme": "Subterranean forest pulse",
+    "color": "Deep moss green, luminous amber veins",
+    "motion": "Slow, gentle bioluminescent flow"
   }
 }
