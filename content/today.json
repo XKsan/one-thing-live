@@ -1,16 +1,16 @@
 {
-  "id": "C001",
-  "category": "COSMOS",
-  "title_en": "Starlight's Ancient Journey",
-  "title_zh": "遥远星光",
-  "reveal_en": "The light reaching your eyes tonight left its star millions of years ago. You are seeing the universe as it once was, not as it is now.",
-  "reveal_zh": "今夜星光，穿越亿万年时空而来。你所见的宇宙，是过往的景象，而非当下。",
-  "meaning_en": "Every twinkling star is a messenger from the past. It's a profound connection to cosmic history, reminding us of time's immensity and our brief, beautiful presence within it.",
-  "meaning_zh": "每颗闪烁的星辰，都是来自过去的信使。它连接着宇宙的深邃历史，提醒我们时间的浩瀚，以及我们短暂而美好的存在。",
-  "source": "Cosmic Insight",
+  "id": "OT-20260930-SCIENCE",
+  "category": "SCIENCE",
+  "title_en": "Earth's Core Hotter Than Sun's Surface",
+  "title_zh": "地核比太阳表面更热",
+  "reveal_en": "Despite being deep inside our planet, the Earth's inner core boasts temperatures soaring to nearly 6,000 degrees Celsius. This makes it as hot as, or even hotter than, the surface of the Sun.",
+  "reveal_zh": "尽管深埋地心，地球内核的温度却高达近6000摄氏度。它与太阳表面一样热，甚至更热。",
+  "meaning_en": "This internal inferno reminds us of the immense, hidden power shaping our planet from within.",
+  "meaning_zh": "这个内部熔炉提醒我们，地球内部蕴藏着塑造我们星球的巨大能量。",
   "visual": {
-    "theme": "Infinite night sky, profound depth",
-    "color": "Deep indigo, subtle shimmering silver, hints of cosmic dust",
-    "motion": "Slow, ethereal drift of stardust, gentle pulsing of distant light"
-  }
+    "theme": "science",
+    "color": "#CC0000",
+    "motion": "Molten core pulsating with heat shimmers."
+  },
+  "generated_at": "2026-09-30T16:45:00.554625+00:00"
 }
