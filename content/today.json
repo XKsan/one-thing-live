@@ -1,16 +1,16 @@
 {
-  "id": "OT-20260930-SCIENCE",
-  "category": "SCIENCE",
-  "title_en": "Earth's Core Hotter Than Sun's Surface",
-  "title_zh": "地核比太阳表面更热",
-  "reveal_en": "Despite being deep inside our planet, the Earth's inner core boasts temperatures soaring to nearly 6,000 degrees Celsius. This makes it as hot as, or even hotter than, the surface of the Sun.",
-  "reveal_zh": "尽管深埋地心，地球内核的温度却高达近6000摄氏度。它与太阳表面一样热，甚至更热。",
-  "meaning_en": "This internal inferno reminds us of the immense, hidden power shaping our planet from within.",
-  "meaning_zh": "这个内部熔炉提醒我们，地球内部蕴藏着塑造我们星球的巨大能量。",
+  "id": "OT-20261001-CULTURE",
+  "category": "CULTURE",
+  "title_en": "The Missing Blue",
+  "title_zh": "缺失的蓝色",
+  "reveal_en": "Ancient cultures, including the Greeks and some early societies, often didn't have a distinct word for the color blue. They might describe the sky as \"wine-dark\" or group blue shades with green or black.",
+  "reveal_zh": "古代文化中，包括古希腊人，往往没有“蓝色”这个词。他们可能将天空描述为“酒色”，或将蓝色归入绿色或黑色。",
+  "meaning_en": "Our perception of color is deeply shaped by language and culture, showing how we literally see the world through a linguistic lens.",
+  "meaning_zh": "颜色感知深受语言和文化影响，揭示了我们如何通过语言视角看待世界。",
   "visual": {
-    "theme": "science",
-    "color": "#CC0000",
-    "motion": "Molten core pulsating with heat shimmers."
+    "theme": "culture",
+    "color": "#5A6D7D",
+    "motion": "A subtle, slow diffusion of color, as if a new hue gradually becomes distinct."
   },
-  "generated_at": "2026-09-30T16:45:00.554625+00:00"
+  "generated_at": "2026-10-01T04:38:51.773817+00:00"
 }
