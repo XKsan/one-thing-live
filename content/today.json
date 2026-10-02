@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261001-CULTURE",
-  "category": "CULTURE",
-  "title_en": "The Missing Blue",
-  "title_zh": "缺失的蓝色",
-  "reveal_en": "Ancient cultures, including the Greeks and some early societies, often didn't have a distinct word for the color blue. They might describe the sky as \"wine-dark\" or group blue shades with green or black.",
-  "reveal_zh": "古代文化中，包括古希腊人，往往没有“蓝色”这个词。他们可能将天空描述为“酒色”，或将蓝色归入绿色或黑色。",
-  "meaning_en": "Our perception of color is deeply shaped by language and culture, showing how we literally see the world through a linguistic lens.",
-  "meaning_zh": "颜色感知深受语言和文化影响，揭示了我们如何通过语言视角看待世界。",
+  "id": "OT-20261002-NATURE",
+  "category": "NATURE",
+  "title_en": "Whale Songs Cross Oceans",
+  "title_zh": "鲸歌传万里",
+  "reveal_en": "Underwater, sound travels five times faster than in air and with far less loss of energy. This allows whale songs to traverse entire ocean basins, sometimes hundreds or even thousands of miles.",
+  "reveal_zh": "在水下，声音传播速度是空气中的五倍，且能量损失极小。这使得鲸歌能够跨越整个海洋盆地，有时长达数百甚至数千英里。",
+  "meaning_en": "The ocean is a vast, interconnected acoustic network, revealing a hidden communication superhighway for marine life.",
+  "meaning_zh": "海洋是一个广阔而相互连接的声学网络，揭示了海洋生物隐秘的通信高速公路。",
   "visual": {
-    "theme": "culture",
-    "color": "#5A6D7D",
-    "motion": "A subtle, slow diffusion of color, as if a new hue gradually becomes distinct."
+    "theme": "nature",
+    "color": "#00567C",
+    "motion": "Gentle sound waves expanding through dark blue water."
   },
-  "generated_at": "2026-10-01T04:38:51.773817+00:00"
+  "generated_at": "2026-10-02T04:30:44.024024+00:00"
 }
