@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261002-NATURE",
-  "category": "NATURE",
-  "title_en": "Whale Songs Cross Oceans",
-  "title_zh": "鲸歌传万里",
-  "reveal_en": "Underwater, sound travels five times faster than in air and with far less loss of energy. This allows whale songs to traverse entire ocean basins, sometimes hundreds or even thousands of miles.",
-  "reveal_zh": "在水下，声音传播速度是空气中的五倍，且能量损失极小。这使得鲸歌能够跨越整个海洋盆地，有时长达数百甚至数千英里。",
-  "meaning_en": "The ocean is a vast, interconnected acoustic network, revealing a hidden communication superhighway for marine life.",
-  "meaning_zh": "海洋是一个广阔而相互连接的声学网络，揭示了海洋生物隐秘的通信高速公路。",
+  "id": "OT-20261003-LIFE",
+  "category": "LIFE",
+  "title_en": "Octopuses Edit Their Genes",
+  "title_zh": "章鱼的基因编辑能力",
+  "reveal_en": "Unlike most animals, octopuses don't just express the genes they inherit. They extensively edit their own RNA, the messenger molecules that translate DNA into proteins, allowing them to rapidly adapt to their environment without altering their core DNA.",
+  "reveal_zh": "与其他大多数动物不同，章鱼能广泛编辑信使RNA，将DNA信息转化为蛋白质。这使它们无需改变核心DNA即可快速适应环境。",
+  "meaning_en": "This reveals an active and flexible layer of biological adaptation, suggesting life can evolve far more dynamically than just through genetic mutation.",
+  "meaning_zh": "这揭示了生物适应的灵活层级，暗示生命演化比单纯的基因突变更为动态。",
   "visual": {
-    "theme": "nature",
-    "color": "#00567C",
-    "motion": "Gentle sound waves expanding through dark blue water."
+    "theme": "life",
+    "color": "#6A0DAD",
+    "motion": "Subtle, undulating flow, like deep ocean currents, with faint shimmering data streams."
   },
-  "generated_at": "2026-10-02T04:30:44.024024+00:00"
+  "generated_at": "2026-10-03T04:13:26.965889+00:00"
 }
