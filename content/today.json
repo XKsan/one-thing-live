@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261003-LIFE",
-  "category": "LIFE",
-  "title_en": "Octopuses Edit Their Genes",
-  "title_zh": "章鱼的基因编辑能力",
-  "reveal_en": "Unlike most animals, octopuses don't just express the genes they inherit. They extensively edit their own RNA, the messenger molecules that translate DNA into proteins, allowing them to rapidly adapt to their environment without altering their core DNA.",
-  "reveal_zh": "与其他大多数动物不同，章鱼能广泛编辑信使RNA，将DNA信息转化为蛋白质。这使它们无需改变核心DNA即可快速适应环境。",
-  "meaning_en": "This reveals an active and flexible layer of biological adaptation, suggesting life can evolve far more dynamically than just through genetic mutation.",
-  "meaning_zh": "这揭示了生物适应的灵活层级，暗示生命演化比单纯的基因突变更为动态。",
+  "id": "OT-20261004-NATURE",
+  "category": "NATURE",
+  "title_en": "Fish Can Hum",
+  "title_zh": "鱼也会发出“哼鸣”声",
+  "reveal_en": "Many fish species, previously thought to be silent, can produce a variety of sounds, including distinct hums, grunts, and clicks. They use specialized muscles and swim bladders to communicate.",
+  "reveal_zh": "许多鱼类并非人们想象的沉默，它们能发出各种声音，包括清晰的“哼鸣”、咕哝声和咔哒声，通过特化肌肉和鱼鳔进行交流。",
+  "meaning_en": "This reveals a hidden acoustic world beneath the water, drastically changing our perception of marine life.",
+  "meaning_zh": "这揭示了水下隐藏的声学世界，彻底改变了我们对海洋生物的认知。",
   "visual": {
-    "theme": "life",
-    "color": "#6A0DAD",
-    "motion": "Subtle, undulating flow, like deep ocean currents, with faint shimmering data streams."
+    "theme": "nature",
+    "color": "#005F73",
+    "motion": "Subtle underwater ripples with sound wave animation"
   },
-  "generated_at": "2026-10-03T04:13:26.965889+00:00"
+  "generated_at": "2026-10-04T04:44:47.420325+00:00"
 }
