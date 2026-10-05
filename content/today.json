@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261004-NATURE",
-  "category": "NATURE",
-  "title_en": "Fish Can Hum",
-  "title_zh": "鱼也会发出“哼鸣”声",
-  "reveal_en": "Many fish species, previously thought to be silent, can produce a variety of sounds, including distinct hums, grunts, and clicks. They use specialized muscles and swim bladders to communicate.",
-  "reveal_zh": "许多鱼类并非人们想象的沉默，它们能发出各种声音，包括清晰的“哼鸣”、咕哝声和咔哒声，通过特化肌肉和鱼鳔进行交流。",
-  "meaning_en": "This reveals a hidden acoustic world beneath the water, drastically changing our perception of marine life.",
-  "meaning_zh": "这揭示了水下隐藏的声学世界，彻底改变了我们对海洋生物的认知。",
+  "id": "OT-20261005-HUMAN",
+  "category": "HUMAN",
+  "title_en": "Your Skin Reinvents Itself",
+  "title_zh": "皮肤的不断新生",
+  "reveal_en": "Every 2 to 4 weeks, the entire outer layer of your skin is completely replaced. Millions of cells are shed daily, making way for new ones from below.",
+  "reveal_zh": "每2到4周，你皮肤的整个外层都会彻底更新一遍。每天数百万个细胞脱落，为下方新细胞让路。",
+  "meaning_en": "Our seemingly stable form is in constant, unseen flux, a testament to life's dynamic self-renewal.",
+  "meaning_zh": "我们看似稳定的形态，实则处于持续且无形的变动中，是生命动态自我更新的证明。",
   "visual": {
-    "theme": "nature",
-    "color": "#005F73",
-    "motion": "Subtle underwater ripples with sound wave animation"
+    "theme": "human",
+    "color": "#E0C7B0",
+    "motion": "Microscopic cells regenerating and shedding."
   },
-  "generated_at": "2026-10-04T04:44:47.420325+00:00"
+  "generated_at": "2026-10-05T04:33:32.961982+00:00"
 }
