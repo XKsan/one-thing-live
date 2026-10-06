@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261005-HUMAN",
-  "category": "HUMAN",
-  "title_en": "Your Skin Reinvents Itself",
-  "title_zh": "皮肤的不断新生",
-  "reveal_en": "Every 2 to 4 weeks, the entire outer layer of your skin is completely replaced. Millions of cells are shed daily, making way for new ones from below.",
-  "reveal_zh": "每2到4周，你皮肤的整个外层都会彻底更新一遍。每天数百万个细胞脱落，为下方新细胞让路。",
-  "meaning_en": "Our seemingly stable form is in constant, unseen flux, a testament to life's dynamic self-renewal.",
-  "meaning_zh": "我们看似稳定的形态，实则处于持续且无形的变动中，是生命动态自我更新的证明。",
+  "id": "OT-20261006-TIME",
+  "category": "TIME",
+  "title_en": "Time Travel's Unchanging Past",
+  "title_zh": "时间旅行：无法改变的过去",
+  "reveal_en": "If time travel were possible, you couldn't actually change historical events. Any attempt to alter the past would paradoxically result in an outcome that maintains the original timeline you experienced.",
+  "reveal_zh": "即使时间旅行可行，你仍无法改变历史事件。任何试图更改过去的尝试，都会以一种吊诡的方式，维持你所经历的原始时间线。",
+  "meaning_en": "This suggests the past is unalterable, even if traversable, re-framing traditional time paradoxes.",
+  "meaning_zh": "这表明即使过去可被穿越，它也是无法改变的，重构了传统的时间悖论。",
   "visual": {
-    "theme": "human",
-    "color": "#E0C7B0",
-    "motion": "Microscopic cells regenerating and shedding."
+    "theme": "time",
+    "color": "#5C6BC0",
+    "motion": "A chronological flow of light, briefly fragmenting, then re-coalescing."
   },
-  "generated_at": "2026-10-05T04:33:32.961982+00:00"
+  "generated_at": "2026-10-06T05:19:11.922581+00:00"
 }
