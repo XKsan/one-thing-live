@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261006-TIME",
-  "category": "TIME",
-  "title_en": "Time Travel's Unchanging Past",
-  "title_zh": "时间旅行：无法改变的过去",
-  "reveal_en": "If time travel were possible, you couldn't actually change historical events. Any attempt to alter the past would paradoxically result in an outcome that maintains the original timeline you experienced.",
-  "reveal_zh": "即使时间旅行可行，你仍无法改变历史事件。任何试图更改过去的尝试，都会以一种吊诡的方式，维持你所经历的原始时间线。",
-  "meaning_en": "This suggests the past is unalterable, even if traversable, re-framing traditional time paradoxes.",
-  "meaning_zh": "这表明即使过去可被穿越，它也是无法改变的，重构了传统的时间悖论。",
+  "id": "OT-20261007-COSMOS",
+  "category": "COSMOS",
+  "title_en": "Universe's Ancient Glow",
+  "title_zh": "宇宙的古老余晖",
+  "reveal_en": "Everywhere we look in the universe, there's a faint, uniform microwave glow. This isn't from stars or galaxies, but the leftover heat from the Big Bang, a cosmic echo dating back 13.8 billion years.",
+  "reveal_zh": "无论我们望向宇宙何处，都存在微弱、均匀的微波余晖。这不是来自恒星或星系，而是大爆炸留下的余热，一个可追溯至138亿年前的宇宙回响。",
+  "meaning_en": "This omnipresent hum reveals the universe's fiery origin, still palpable as the faint background radiation of space itself.",
+  "meaning_zh": "这种无处不在的低语揭示了宇宙炽热的起源，至今仍以空间微弱的背景辐射形式存在。",
   "visual": {
-    "theme": "time",
-    "color": "#5C6BC0",
-    "motion": "A chronological flow of light, briefly fragmenting, then re-coalescing."
+    "theme": "cosmos",
+    "color": "#1A0033",
+    "motion": "Subtle, slow expansion with shimmering particles."
   },
-  "generated_at": "2026-10-06T05:19:11.922581+00:00"
+  "generated_at": "2026-10-07T04:47:36.384284+00:00"
 }
