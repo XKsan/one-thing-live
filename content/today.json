@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261007-COSMOS",
-  "category": "COSMOS",
-  "title_en": "Universe's Ancient Glow",
-  "title_zh": "宇宙的古老余晖",
-  "reveal_en": "Everywhere we look in the universe, there's a faint, uniform microwave glow. This isn't from stars or galaxies, but the leftover heat from the Big Bang, a cosmic echo dating back 13.8 billion years.",
-  "reveal_zh": "无论我们望向宇宙何处，都存在微弱、均匀的微波余晖。这不是来自恒星或星系，而是大爆炸留下的余热，一个可追溯至138亿年前的宇宙回响。",
-  "meaning_en": "This omnipresent hum reveals the universe's fiery origin, still palpable as the faint background radiation of space itself.",
-  "meaning_zh": "这种无处不在的低语揭示了宇宙炽热的起源，至今仍以空间微弱的背景辐射形式存在。",
+  "id": "OT-20261010-CULTURE",
+  "category": "CULTURE",
+  "title_en": "The Late Arrival of Blue",
+  "title_zh": "蓝色的迟来",
+  "reveal_en": "For much of human history, many cultures did not have a specific word for the color blue. Ancient texts, including Greek and Hebrew, describe the sky and sea with colors like \"wine-dark\" or \"bronze.\"",
+  "reveal_zh": "在人类历史的大部分时间里，许多文化中都没有“蓝色”这个词。古希腊语和希伯来语等古籍将天空和大海描述为“酒红色”或“青铜色”。",
+  "meaning_en": "Our perception and naming of colors are deeply influenced by language and cultural context, not just biology.",
+  "meaning_zh": "我们对颜色的感知和命名深受语言和文化背景的影响，而非纯粹的生理现象。",
   "visual": {
-    "theme": "cosmos",
-    "color": "#1A0033",
-    "motion": "Subtle, slow expansion with shimmering particles."
+    "theme": "culture",
+    "color": "#0000A0",
+    "motion": "A slow, gentle reveal of a deep blue hue, as if emerging from darkness."
   },
-  "generated_at": "2026-10-07T04:47:36.384284+00:00"
+  "generated_at": "2026-10-10T04:46:44.261653+00:00"
 }
