@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261011-TIME",
-  "category": "TIME",
-  "title_en": "Cleopatra's Relative Youth",
-  "title_zh": "艳后更近现代",
-  "reveal_en": "The last pharaoh of Egypt, Cleopatra, lived closer to the invention of the iPhone than she did to the construction of the Great Pyramid of Giza. The pyramid was built around 2560 BCE; Cleopatra died in 30 BCE.",
-  "reveal_zh": "埃及末代法老克利奥帕特拉生活的时代，离iPhone发明比离吉萨大金字塔建成更近。金字塔约在公元前2560年建成，而艳后卒于公元前30年。",
-  "meaning_en": "Our perception of historical distance often collapses vast eras, obscuring the profound lengths of time that truly separate ancient events.",
-  "meaning_zh": "我们对历史距离的认知常压缩漫长时代，掩盖了古老事件间真正惊人的时间跨度。",
+  "id": "OT-20261011-NATURE",
+  "category": "NATURE",
+  "title_en": "Butterflies Drink Tears",
+  "title_zh": "蝴蝶饮泪为生",
+  "reveal_en": "Certain species of butterflies, particularly in the Amazon, are known to drink the tears of turtles, caimans, and even humans. They seek out the salt and other minerals found in these tears, which are scarce in their diet.",
+  "reveal_zh": "某些蝴蝶物种，特别是在亚马逊地区，会吸食乌龟、凯门鳄甚至人类的眼泪。它们寻找这些眼泪中稀有的盐分和其他矿物质。",
+  "meaning_en": "Nature's intricate web reveals surprising interdependencies, where even tears become a vital resource.",
+  "meaning_zh": "自然错综复杂的网络揭示了令人惊讶的相互依赖性，连眼泪都成为重要的资源。",
   "visual": {
-    "theme": "time",
-    "color": "#78909C",
-    "motion": "Timeline markers appearing and receding, emphasizing relative distances."
+    "theme": "nature",
+    "color": "#228B22",
+    "motion": "Butterfly proboscis delicately siphoning a tear."
   },
-  "generated_at": "2026-10-11T23:44:37.313827+00:00"
+  "generated_at": "2026-10-11T23:45:42.361639+00:00"
 }
