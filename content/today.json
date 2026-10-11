@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261010-CULTURE",
+  "id": "OT-20261011-CULTURE",
   "category": "CULTURE",
-  "title_en": "The Late Arrival of Blue",
-  "title_zh": "蓝色的迟来",
-  "reveal_en": "For much of human history, many cultures did not have a specific word for the color blue. Ancient texts, including Greek and Hebrew, describe the sky and sea with colors like \"wine-dark\" or \"bronze.\"",
-  "reveal_zh": "在人类历史的大部分时间里，许多文化中都没有“蓝色”这个词。古希腊语和希伯来语等古籍将天空和大海描述为“酒红色”或“青铜色”。",
-  "meaning_en": "Our perception and naming of colors are deeply influenced by language and cultural context, not just biology.",
-  "meaning_zh": "我们对颜色的感知和命名深受语言和文化背景的影响，而非纯粹的生理现象。",
+  "title_en": "Disaster's Celestial Origin",
+  "title_zh": "灾难的星象起源",
+  "reveal_en": "The word \"disaster\" literally means \"bad star.\" It comes from the Greek dis (bad) and aster (star), reflecting ancient beliefs that celestial alignments caused misfortune.",
+  "reveal_zh": "英文单词“disaster”字面意思是“坏星”。它源于希腊语的“dis”（坏）和“aster”（星），反映了古人认为天体排列会带来不幸的观念。",
+  "meaning_en": "It reveals how profoundly ancient cosmic interpretations shaped our language and perception of misfortune.",
+  "meaning_zh": "它揭示了古代宇宙观如何深刻地塑造了我们的语言和对不幸的认知。",
   "visual": {
-    "theme": "culture",
-    "color": "#0000A0",
-    "motion": "A slow, gentle reveal of a deep blue hue, as if emerging from darkness."
+    "theme": "cosmos",
+    "color": "#4A0E8C",
+    "motion": "Stars slowly drift across a dark sky, forming constellations."
   },
-  "generated_at": "2026-10-10T04:46:44.261653+00:00"
+  "generated_at": "2026-10-11T04:32:18.888982+00:00"
 }
