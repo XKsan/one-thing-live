@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261011-CULTURE",
-  "category": "CULTURE",
-  "title_en": "Disaster's Celestial Origin",
-  "title_zh": "灾难的星象起源",
-  "reveal_en": "The word \"disaster\" literally means \"bad star.\" It comes from the Greek dis (bad) and aster (star), reflecting ancient beliefs that celestial alignments caused misfortune.",
-  "reveal_zh": "英文单词“disaster”字面意思是“坏星”。它源于希腊语的“dis”（坏）和“aster”（星），反映了古人认为天体排列会带来不幸的观念。",
-  "meaning_en": "It reveals how profoundly ancient cosmic interpretations shaped our language and perception of misfortune.",
-  "meaning_zh": "它揭示了古代宇宙观如何深刻地塑造了我们的语言和对不幸的认知。",
+  "id": "OT-20261011-TIME",
+  "category": "TIME",
+  "title_en": "Cleopatra's Relative Youth",
+  "title_zh": "艳后更近现代",
+  "reveal_en": "The last pharaoh of Egypt, Cleopatra, lived closer to the invention of the iPhone than she did to the construction of the Great Pyramid of Giza. The pyramid was built around 2560 BCE; Cleopatra died in 30 BCE.",
+  "reveal_zh": "埃及末代法老克利奥帕特拉生活的时代，离iPhone发明比离吉萨大金字塔建成更近。金字塔约在公元前2560年建成，而艳后卒于公元前30年。",
+  "meaning_en": "Our perception of historical distance often collapses vast eras, obscuring the profound lengths of time that truly separate ancient events.",
+  "meaning_zh": "我们对历史距离的认知常压缩漫长时代，掩盖了古老事件间真正惊人的时间跨度。",
   "visual": {
-    "theme": "cosmos",
-    "color": "#4A0E8C",
-    "motion": "Stars slowly drift across a dark sky, forming constellations."
+    "theme": "time",
+    "color": "#78909C",
+    "motion": "Timeline markers appearing and receding, emphasizing relative distances."
   },
-  "generated_at": "2026-10-11T04:32:18.888982+00:00"
+  "generated_at": "2026-10-11T23:44:37.313827+00:00"
 }
