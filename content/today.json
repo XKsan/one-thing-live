@@ -1,16 +1,16 @@
 {
   "id": "OT-20261011-NATURE",
   "category": "NATURE",
-  "title_en": "Butterflies Drink Tears",
-  "title_zh": "蝴蝶饮泪为生",
-  "reveal_en": "Certain species of butterflies, particularly in the Amazon, are known to drink the tears of turtles, caimans, and even humans. They seek out the salt and other minerals found in these tears, which are scarce in their diet.",
-  "reveal_zh": "某些蝴蝶物种，特别是在亚马逊地区，会吸食乌龟、凯门鳄甚至人类的眼泪。它们寻找这些眼泪中稀有的盐分和其他矿物质。",
-  "meaning_en": "Nature's intricate web reveals surprising interdependencies, where even tears become a vital resource.",
-  "meaning_zh": "自然错综复杂的网络揭示了令人惊讶的相互依赖性，连眼泪都成为重要的资源。",
+  "title_en": "The Immortal Jellyfish's Rebirth",
+  "title_zh": "不朽水母的重生",
+  "reveal_en": "The jellyfish Turritopsis dohrnii has a unique biological trick: when faced with environmental stress or injury, it can revert its adult cells back to their juvenile polyp stage, essentially restarting its life cycle.",
+  "reveal_zh": "笠水母拥有独特的生物学能力：当面临环境压力或受伤时，它能将成年细胞逆转回幼年水螅体阶段，从而重新开始生命周期。",
+  "meaning_en": "This ability challenges our fundamental understanding of aging and mortality in complex organisms.",
+  "meaning_zh": "这一能力颠覆了我们对复杂生物衰老和死亡的基本认知。",
   "visual": {
     "theme": "nature",
-    "color": "#228B22",
-    "motion": "Butterfly proboscis delicately siphoning a tear."
+    "color": "#00A388",
+    "motion": "A pulsating, flowing motion with bioluminescent elements."
   },
-  "generated_at": "2026-10-11T23:45:42.361639+00:00"
+  "generated_at": "2026-10-11T23:48:29.261895+00:00"
 }
