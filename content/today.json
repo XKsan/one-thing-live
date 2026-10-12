@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261011-NATURE",
+  "id": "OT-20261012-NATURE",
   "category": "NATURE",
-  "title_en": "The Immortal Jellyfish's Rebirth",
-  "title_zh": "不朽水母的重生",
-  "reveal_en": "The jellyfish Turritopsis dohrnii has a unique biological trick: when faced with environmental stress or injury, it can revert its adult cells back to their juvenile polyp stage, essentially restarting its life cycle.",
-  "reveal_zh": "笠水母拥有独特的生物学能力：当面临环境压力或受伤时，它能将成年细胞逆转回幼年水螅体阶段，从而重新开始生命周期。",
-  "meaning_en": "This ability challenges our fundamental understanding of aging and mortality in complex organisms.",
-  "meaning_zh": "这一能力颠覆了我们对复杂生物衰老和死亡的基本认知。",
+  "title_en": "Sharks Older Than Trees",
+  "title_zh": "鲨鱼比树木更古老",
+  "reveal_en": "Sharks, as a distinct group, have been swimming Earth's oceans for over 400 million years. This means they predate the first forests and even the evolution of trees on land by tens of millions of years.",
+  "reveal_zh": "鲨鱼作为独立群体，在地球海洋中畅游已超过4亿年。这意味着它们比陆地上的第一批森林和树木早了数千万年。",
+  "meaning_en": "This fact profoundly shifts our perspective on deep time and the relative antiquity of life forms we consider ancient.",
+  "meaning_zh": "这深刻改变了我们对地球深层时间和古老生命形式相对久远的认知。",
   "visual": {
     "theme": "nature",
-    "color": "#00A388",
-    "motion": "A pulsating, flowing motion with bioluminescent elements."
+    "color": "#0A3D62",
+    "motion": "A deep, vast ocean with subtle currents and faint, ancient patterns."
   },
-  "generated_at": "2026-10-11T23:48:29.261895+00:00"
+  "generated_at": "2026-10-12T04:47:27.930331+00:00"
 }
