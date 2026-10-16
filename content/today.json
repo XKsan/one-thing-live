@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261014-SCIENCE",
-  "category": "SCIENCE",
-  "title_en": "Earth's Core Hotter Than Sun",
-  "title_zh": "地核温度超太阳表面",
-  "reveal_en": "Earth's solid inner core, a ball of iron and nickel, reaches temperatures of approximately 5,200 degrees Celsius. This makes it hotter than the surface of the Sun, which is around 5,000 degrees Celsius.",
-  "reveal_zh": "地球的固态内核，一个铁镍球体，温度高达约5200摄氏度。这比太阳表面（约5000摄氏度）还要热。",
-  "meaning_en": "Our home planet harbors extreme conditions, reminding us of the immense energy contained within its depths, hidden beneath our feet.",
-  "meaning_zh": "我们的星球蕴藏着超乎想象的极端条件，提醒我们脚下深处蕴含的巨大能量。",
+  "id": "OT-20261016-NATURE",
+  "category": "NATURE",
+  "title_en": "Honey Never Spoils",
+  "title_zh": "蜂蜜永不腐坏",
+  "reveal_en": "Archaeologists have discovered pots of honey in ancient Egyptian tombs that are thousands of years old and still perfectly edible. Its unique chemical composition prevents spoilage indefinitely.",
+  "reveal_zh": "考古学家在古埃及陵墓中发现了数千年前的蜂蜜，至今仍可食用。它独特的化学成分使其永不腐坏。",
+  "meaning_en": "This natural wonder reminds us that some of nature's simplest creations hold incredible, enduring properties.",
+  "meaning_zh": "这个自然奇迹提醒我们，大自然最简单的创造也蕴含着不可思议的持久特性。",
   "visual": {
-    "theme": "science",
-    "color": "#CC0000",
-    "motion": "Slowly pulsating glow, radiating outward."
+    "theme": "nature",
+    "color": "#FFC107",
+    "motion": "Slow, golden swirl"
   },
-  "generated_at": "2026-10-14T03:54:28.059220+00:00"
+  "generated_at": "2026-10-16T03:32:06.870651+00:00"
 }
