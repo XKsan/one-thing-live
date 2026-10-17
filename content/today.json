@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261016-NATURE",
-  "category": "NATURE",
-  "title_en": "Honey Never Spoils",
-  "title_zh": "蜂蜜永不腐坏",
-  "reveal_en": "Archaeologists have discovered pots of honey in ancient Egyptian tombs that are thousands of years old and still perfectly edible. Its unique chemical composition prevents spoilage indefinitely.",
-  "reveal_zh": "考古学家在古埃及陵墓中发现了数千年前的蜂蜜，至今仍可食用。它独特的化学成分使其永不腐坏。",
-  "meaning_en": "This natural wonder reminds us that some of nature's simplest creations hold incredible, enduring properties.",
-  "meaning_zh": "这个自然奇迹提醒我们，大自然最简单的创造也蕴含着不可思议的持久特性。",
+  "id": "OT-20261017-LIFE",
+  "category": "LIFE",
+  "title_en": "The World's Largest Organism",
+  "title_zh": "世界最大生命体",
+  "reveal_en": "The largest single living organism on Earth is a fungus called Armillaria ostoyae, spanning over 2,200 acres (890 hectares) in Oregon's Malheur National Forest. Most of it grows underground.",
+  "reveal_zh": "地球上最大的单一生命体是蜜环菌，位于俄勒冈州马尔赫尔国家森林，面积超过890公顷，大部分生长于地下。",
+  "meaning_en": "This reveals life's hidden scales, showing that vastness can be an unseen, interconnected network beneath our feet.",
+  "meaning_zh": "这揭示了生命隐藏的尺度，表明浩瀚可以是以我们脚下看不见的互联网络形式存在。",
   "visual": {
-    "theme": "nature",
-    "color": "#FFC107",
-    "motion": "Slow, golden swirl"
+    "theme": "life",
+    "color": "#4A7C59",
+    "motion": "Slow expansion and subtle pulsating mycelial network."
   },
-  "generated_at": "2026-10-16T03:32:06.870651+00:00"
+  "generated_at": "2026-10-17T03:22:33.307202+00:00"
 }
