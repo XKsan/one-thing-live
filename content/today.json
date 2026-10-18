@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261017-LIFE",
+  "id": "OT-20261018-LIFE",
   "category": "LIFE",
-  "title_en": "The World's Largest Organism",
-  "title_zh": "世界最大生命体",
-  "reveal_en": "The largest single living organism on Earth is a fungus called Armillaria ostoyae, spanning over 2,200 acres (890 hectares) in Oregon's Malheur National Forest. Most of it grows underground.",
-  "reveal_zh": "地球上最大的单一生命体是蜜环菌，位于俄勒冈州马尔赫尔国家森林，面积超过890公顷，大部分生长于地下。",
-  "meaning_en": "This reveals life's hidden scales, showing that vastness can be an unseen, interconnected network beneath our feet.",
-  "meaning_zh": "这揭示了生命隐藏的尺度，表明浩瀚可以是以我们脚下看不见的互联网络形式存在。",
+  "title_en": "Born Without Kneecaps",
+  "title_zh": "新生儿没有膝盖骨",
+  "reveal_en": "Babies aren't born with kneecaps; instead, they have cartilage structures that ossify into bone between ages three and five. This softer tissue protects their developing joints and allows for rapid growth.",
+  "reveal_zh": "婴儿出生时并没有真正的膝盖骨，而是由软骨组成。这些软骨会在三到五岁之间逐渐骨化，形成我们熟知的膝盖骨，以保护他们正在发育的关节并促进快速成长。",
+  "meaning_en": "Our bodies undergo significant, often unseen, transformations even long after birth, optimizing for protection and development.",
+  "meaning_zh": "我们的身体在出生后，甚至很长时间内，都在经历着重要的、往往不为人知的变化，以优化保护和发展。",
   "visual": {
-    "theme": "life",
-    "color": "#4A7C59",
-    "motion": "Slow expansion and subtle pulsating mycelial network."
+    "theme": "human",
+    "color": "#F0D9C6",
+    "motion": "Subtle transformation and growth."
   },
-  "generated_at": "2026-10-17T03:22:33.307202+00:00"
+  "generated_at": "2026-10-18T03:27:51.944722+00:00"
 }
