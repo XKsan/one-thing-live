@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261018-LIFE",
-  "category": "LIFE",
-  "title_en": "Born Without Kneecaps",
-  "title_zh": "新生儿没有膝盖骨",
-  "reveal_en": "Babies aren't born with kneecaps; instead, they have cartilage structures that ossify into bone between ages three and five. This softer tissue protects their developing joints and allows for rapid growth.",
-  "reveal_zh": "婴儿出生时并没有真正的膝盖骨，而是由软骨组成。这些软骨会在三到五岁之间逐渐骨化，形成我们熟知的膝盖骨，以保护他们正在发育的关节并促进快速成长。",
-  "meaning_en": "Our bodies undergo significant, often unseen, transformations even long after birth, optimizing for protection and development.",
-  "meaning_zh": "我们的身体在出生后，甚至很长时间内，都在经历着重要的、往往不为人知的变化，以优化保护和发展。",
+  "id": "OT-20261019-SCIENCE",
+  "category": "SCIENCE",
+  "title_en": "Earth's Core Hotter Than Sun",
+  "title_zh": "地核比太阳表面还热",
+  "reveal_en": "The Earth's solid inner core is scorching hot, estimated at 5,200 degrees Celsius – hotter than the sun's surface. This intense heat is held within by immense pressure from all layers above.",
+  "reveal_zh": "地球的固体内核温度高达5200摄氏度，比太阳表面还要炙热。巨大的压力将这股惊人的热量锁在地球深处。",
+  "meaning_en": "Our planet harbors an internal inferno, revealing the extraordinary conditions deep beneath our feet.",
+  "meaning_zh": "我们的星球深藏着一个炽热的炼狱，揭示了脚下深处超乎想象的极端条件。",
   "visual": {
-    "theme": "human",
-    "color": "#F0D9C6",
-    "motion": "Subtle transformation and growth."
+    "theme": "science",
+    "color": "#FF4500",
+    "motion": "Pulsating, intense heat radiating from a central, fiery sphere, contained by surrounding layers."
   },
-  "generated_at": "2026-10-18T03:27:51.944722+00:00"
+  "generated_at": "2026-10-19T03:39:28.765163+00:00"
 }
