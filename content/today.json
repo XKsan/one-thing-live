@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261019-SCIENCE",
+  "id": "OT-20261020-SCIENCE",
   "category": "SCIENCE",
-  "title_en": "Earth's Core Hotter Than Sun",
-  "title_zh": "地核比太阳表面还热",
-  "reveal_en": "The Earth's solid inner core is scorching hot, estimated at 5,200 degrees Celsius – hotter than the sun's surface. This intense heat is held within by immense pressure from all layers above.",
-  "reveal_zh": "地球的固体内核温度高达5200摄氏度，比太阳表面还要炙热。巨大的压力将这股惊人的热量锁在地球深处。",
-  "meaning_en": "Our planet harbors an internal inferno, revealing the extraordinary conditions deep beneath our feet.",
-  "meaning_zh": "我们的星球深藏着一个炽热的炼狱，揭示了脚下深处超乎想象的极端条件。",
+  "title_en": "Earth's Billiard Ball Smoothness",
+  "title_zh": "地球的台球般平滑",
+  "reveal_en": "Despite towering mountains and Mariana Trenches, if Earth were scaled down to a billiard ball, it would be proportionally smoother than any actual billiard ball, its largest features barely perceptible.",
+  "reveal_zh": "尽管有高山和马里亚纳海沟，若将地球缩小到台球大小，它会比真正的台球更平滑，其最大特征几乎难以察觉。",
+  "meaning_en": "This reveals how our perception of geological scale is profoundly influenced by our own size and immediate environment.",
+  "meaning_zh": "这揭示了我们对地质尺度的感知深受自身大小和即时环境的影响。",
   "visual": {
-    "theme": "science",
-    "color": "#FF4500",
-    "motion": "Pulsating, intense heat radiating from a central, fiery sphere, contained by surrounding layers."
+    "theme": "cosmos",
+    "color": "#42A5F5",
+    "motion": "A perfectly smooth, glowing sphere rotating, with extremely subtle surface variations momentarily hi"
   },
-  "generated_at": "2026-10-19T03:39:28.765163+00:00"
+  "generated_at": "2026-10-20T03:50:13.696478+00:00"
 }
