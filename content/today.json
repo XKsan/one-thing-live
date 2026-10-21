@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261020-SCIENCE",
-  "category": "SCIENCE",
-  "title_en": "Earth's Billiard Ball Smoothness",
-  "title_zh": "地球的台球般平滑",
-  "reveal_en": "Despite towering mountains and Mariana Trenches, if Earth were scaled down to a billiard ball, it would be proportionally smoother than any actual billiard ball, its largest features barely perceptible.",
-  "reveal_zh": "尽管有高山和马里亚纳海沟，若将地球缩小到台球大小，它会比真正的台球更平滑，其最大特征几乎难以察觉。",
-  "meaning_en": "This reveals how our perception of geological scale is profoundly influenced by our own size and immediate environment.",
-  "meaning_zh": "这揭示了我们对地质尺度的感知深受自身大小和即时环境的影响。",
+  "id": "OT-20261021-LIFE",
+  "category": "LIFE",
+  "title_en": "Octopuses Have Three Hearts",
+  "title_zh": "章鱼有三颗心脏",
+  "reveal_en": "Octopuses possess three hearts: two pump blood through each of their gills, while the third larger heart circulates blood to the rest of their body. This unique circulatory system supports their active, intelligent lives.",
+  "reveal_zh": "章鱼有三颗心脏：两颗将血液泵入各自的鳃，而第三颗较大的心脏则将血液循环到身体的其他部分。这种独特的循环系统支持了它们活跃而智慧的生命。",
+  "meaning_en": "This biological quirk underscores the diverse and often surprising evolutionary paths life takes to thrive in complex environments.",
+  "meaning_zh": "这种生物学上的奇特之处，突显了生命在复杂环境中繁衍生息所采取的多种多样且常常令人惊讶的进化路径。",
   "visual": {
-    "theme": "cosmos",
-    "color": "#42A5F5",
-    "motion": "A perfectly smooth, glowing sphere rotating, with extremely subtle surface variations momentarily hi"
+    "theme": "life",
+    "color": "#8A2BE2",
+    "motion": "Pulsating silhouettes of three hearts, with faint, rhythmic tendril movements."
   },
-  "generated_at": "2026-10-20T03:50:13.696478+00:00"
+  "generated_at": "2026-10-21T03:41:02.479685+00:00"
 }
