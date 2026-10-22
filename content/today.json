@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261021-LIFE",
-  "category": "LIFE",
-  "title_en": "Octopuses Have Three Hearts",
-  "title_zh": "章鱼有三颗心脏",
-  "reveal_en": "Octopuses possess three hearts: two pump blood through each of their gills, while the third larger heart circulates blood to the rest of their body. This unique circulatory system supports their active, intelligent lives.",
-  "reveal_zh": "章鱼有三颗心脏：两颗将血液泵入各自的鳃，而第三颗较大的心脏则将血液循环到身体的其他部分。这种独特的循环系统支持了它们活跃而智慧的生命。",
-  "meaning_en": "This biological quirk underscores the diverse and often surprising evolutionary paths life takes to thrive in complex environments.",
-  "meaning_zh": "这种生物学上的奇特之处，突显了生命在复杂环境中繁衍生息所采取的多种多样且常常令人惊讶的进化路径。",
+  "id": "OT-20261022-CULTURE",
+  "category": "CULTURE",
+  "title_en": "Writing's Humble Accounting Origins",
+  "title_zh": "文字起源：竟为记账",
+  "reveal_en": "The earliest known writing system, Sumerian cuneiform, didn't begin with epic poems or religious texts. It emerged from simple clay tokens and pictographs used primarily to record transactions and track goods like livestock and grain.",
+  "reveal_zh": "最早的苏美尔楔形文字并非始于史诗或宗教文本。它源于记录交易、牲畜和谷物等商品的粘土代币和象形文字。",
+  "meaning_en": "Our most profound intellectual tool began as a practical solution for basic economic needs, revealing the driving force behind early human innovation.",
+  "meaning_zh": "人类最深刻的智力工具始于基本的经济需求，揭示了早期人类创新的驱动力。",
   "visual": {
-    "theme": "life",
-    "color": "#8A2BE2",
-    "motion": "Pulsating silhouettes of three hearts, with faint, rhythmic tendril movements."
+    "theme": "culture",
+    "color": "#B59B7D",
+    "motion": "Clay tablets appearing, glyphs forming and dissolving."
   },
-  "generated_at": "2026-10-21T03:41:02.479685+00:00"
+  "generated_at": "2026-10-22T03:40:21.712561+00:00"
 }
