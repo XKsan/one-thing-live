@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261022-CULTURE",
-  "category": "CULTURE",
-  "title_en": "Writing's Humble Accounting Origins",
-  "title_zh": "文字起源：竟为记账",
-  "reveal_en": "The earliest known writing system, Sumerian cuneiform, didn't begin with epic poems or religious texts. It emerged from simple clay tokens and pictographs used primarily to record transactions and track goods like livestock and grain.",
-  "reveal_zh": "最早的苏美尔楔形文字并非始于史诗或宗教文本。它源于记录交易、牲畜和谷物等商品的粘土代币和象形文字。",
-  "meaning_en": "Our most profound intellectual tool began as a practical solution for basic economic needs, revealing the driving force behind early human innovation.",
-  "meaning_zh": "人类最深刻的智力工具始于基本的经济需求，揭示了早期人类创新的驱动力。",
+  "id": "OT-20261023-COSMOS",
+  "category": "COSMOS",
+  "title_en": "The Scent of Space",
+  "title_zh": "宇宙的味道",
+  "reveal_en": "Astronauts returning from spacewalks often report a distinct smell clinging to their suits, described as metallic, like burnt steak or welding fumes. This is attributed to polycyclic aromatic hydrocarbons from dying stars.",
+  "reveal_zh": "宇航员从太空行走返回后，常报告其宇航服上有一种独特气味，形似金属、焦牛排或焊接烟雾。这归因于垂死恒星产生多环芳香烃。",
+  "meaning_en": "This unexpected sensory detail humanizes the void, hinting at the complex chemistry at play in the vacuum of space.",
+  "meaning_zh": "这一出乎意料的感官细节使虚空具象化，暗示了真空中复杂的化学作用。",
   "visual": {
-    "theme": "culture",
-    "color": "#B59B7D",
-    "motion": "Clay tablets appearing, glyphs forming and dissolving."
+    "theme": "cosmos",
+    "color": "#36454F",
+    "motion": "Subtle, slow swirling of cosmic dust clouds, with faint shimmering particles."
   },
-  "generated_at": "2026-10-22T03:40:21.712561+00:00"
+  "generated_at": "2026-10-23T03:45:07.979711+00:00"
 }
