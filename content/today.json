@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261023-COSMOS",
-  "category": "COSMOS",
-  "title_en": "The Scent of Space",
-  "title_zh": "宇宙的味道",
-  "reveal_en": "Astronauts returning from spacewalks often report a distinct smell clinging to their suits, described as metallic, like burnt steak or welding fumes. This is attributed to polycyclic aromatic hydrocarbons from dying stars.",
-  "reveal_zh": "宇航员从太空行走返回后，常报告其宇航服上有一种独特气味，形似金属、焦牛排或焊接烟雾。这归因于垂死恒星产生多环芳香烃。",
-  "meaning_en": "This unexpected sensory detail humanizes the void, hinting at the complex chemistry at play in the vacuum of space.",
-  "meaning_zh": "这一出乎意料的感官细节使虚空具象化，暗示了真空中复杂的化学作用。",
+  "id": "OT-20261024-LIFE",
+  "category": "LIFE",
+  "title_en": "The Immortal Jellyfish",
+  "title_zh": "不朽的水母",
+  "reveal_en": "Turritopsis dohrnii, a species of jellyfish, can revert its cells back to an immature polyp stage after reaching sexual maturity, effectively restarting its life cycle. This process makes it biologically immortal.",
+  "reveal_zh": "一种名为灯塔水母的物种，在达到性成熟后能将细胞逆转回幼年水螅体阶段，从而重新开始生命周期。这使其在生物学上不朽。",
+  "meaning_en": "Its unique ability challenges our fundamental understanding of aging and death in multicellular organisms.",
+  "meaning_zh": "其独特能力挑战了我们对多细胞生物衰老与死亡的根本理解。",
   "visual": {
-    "theme": "cosmos",
-    "color": "#36454F",
-    "motion": "Subtle, slow swirling of cosmic dust clouds, with faint shimmering particles."
+    "theme": "life",
+    "color": "#4682B4",
+    "motion": "Gentle pulsation, slow transformation"
   },
-  "generated_at": "2026-10-23T03:45:07.979711+00:00"
+  "generated_at": "2026-10-24T03:39:09.668610+00:00"
 }
