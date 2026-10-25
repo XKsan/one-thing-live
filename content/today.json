@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261024-LIFE",
-  "category": "LIFE",
-  "title_en": "The Immortal Jellyfish",
-  "title_zh": "不朽的水母",
-  "reveal_en": "Turritopsis dohrnii, a species of jellyfish, can revert its cells back to an immature polyp stage after reaching sexual maturity, effectively restarting its life cycle. This process makes it biologically immortal.",
-  "reveal_zh": "一种名为灯塔水母的物种，在达到性成熟后能将细胞逆转回幼年水螅体阶段，从而重新开始生命周期。这使其在生物学上不朽。",
-  "meaning_en": "Its unique ability challenges our fundamental understanding of aging and death in multicellular organisms.",
-  "meaning_zh": "其独特能力挑战了我们对多细胞生物衰老与死亡的根本理解。",
+  "id": "OT-20261025-NATURE",
+  "category": "NATURE",
+  "title_en": "Plants Hear Their Attackers",
+  "title_zh": "植物能“听见”虫子",
+  "reveal_en": "Plants don't have ears, but they can \"hear\" the vibrations of caterpillars chewing on their leaves. They then boost their chemical defenses, preparing for the attack before significant damage occurs.",
+  "reveal_zh": "植物虽无耳，却能“听见”毛毛虫啃食叶片的振动。它们随即增强化学防御，在受损前就做好反击准备。",
+  "meaning_en": "This reveals a hidden layer of sensory awareness in the natural world, challenging our anthropocentric understanding of perception.",
+  "meaning_zh": "这揭示了自然界中隐藏的感官意识，挑战了我们以人类为中心对感知的理解。",
   "visual": {
-    "theme": "life",
-    "color": "#4682B4",
-    "motion": "Gentle pulsation, slow transformation"
+    "theme": "nature",
+    "color": "#3C7240",
+    "motion": "Subtle vibrations rippling across a leaf surface."
   },
-  "generated_at": "2026-10-24T03:39:09.668610+00:00"
+  "generated_at": "2026-10-25T03:36:42.131358+00:00"
 }
