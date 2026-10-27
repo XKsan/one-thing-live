@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261025-NATURE",
-  "category": "NATURE",
-  "title_en": "Plants Hear Their Attackers",
-  "title_zh": "植物能“听见”虫子",
-  "reveal_en": "Plants don't have ears, but they can \"hear\" the vibrations of caterpillars chewing on their leaves. They then boost their chemical defenses, preparing for the attack before significant damage occurs.",
-  "reveal_zh": "植物虽无耳，却能“听见”毛毛虫啃食叶片的振动。它们随即增强化学防御，在受损前就做好反击准备。",
-  "meaning_en": "This reveals a hidden layer of sensory awareness in the natural world, challenging our anthropocentric understanding of perception.",
-  "meaning_zh": "这揭示了自然界中隐藏的感官意识，挑战了我们以人类为中心对感知的理解。",
+  "id": "OT-20261027-LIFE",
+  "category": "LIFE",
+  "title_en": "A Jellyfish's Immortality",
+  "title_zh": "永生水母",
+  "reveal_en": "There's a jellyfish species, Turritopsis dohrnii, capable of reversing its aging process. If stressed, it can revert to an immature polyp stage and grow anew, effectively bypassing death by old age.",
+  "reveal_zh": "有一种水母，灯塔水母，能够逆转其衰老过程。当受到威胁时，它能变回幼年水螅体，并重新生长，从而避免因衰老而死亡。",
+  "meaning_en": "This discovery challenges our fundamental understanding of life cycles, suggesting that biological aging is not always a one-way street.",
+  "meaning_zh": "这一发现挑战了我们对生命周期的基本理解，表明生物衰老并非总是单向的。",
   "visual": {
-    "theme": "nature",
-    "color": "#3C7240",
-    "motion": "Subtle vibrations rippling across a leaf surface."
+    "theme": "life",
+    "color": "#00CED1",
+    "motion": "Gentle, continuous regeneration of form, resembling a subtle pulse."
   },
-  "generated_at": "2026-10-25T03:36:42.131358+00:00"
+  "generated_at": "2026-10-27T04:03:34.007321+00:00"
 }
