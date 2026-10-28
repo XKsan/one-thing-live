@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261027-LIFE",
-  "category": "LIFE",
-  "title_en": "A Jellyfish's Immortality",
-  "title_zh": "永生水母",
-  "reveal_en": "There's a jellyfish species, Turritopsis dohrnii, capable of reversing its aging process. If stressed, it can revert to an immature polyp stage and grow anew, effectively bypassing death by old age.",
-  "reveal_zh": "有一种水母，灯塔水母，能够逆转其衰老过程。当受到威胁时，它能变回幼年水螅体，并重新生长，从而避免因衰老而死亡。",
-  "meaning_en": "This discovery challenges our fundamental understanding of life cycles, suggesting that biological aging is not always a one-way street.",
-  "meaning_zh": "这一发现挑战了我们对生命周期的基本理解，表明生物衰老并非总是单向的。",
+  "id": "OT-20261028-COSMOS",
+  "category": "COSMOS",
+  "title_en": "Venus: A Day Longer Than Its Year",
+  "title_zh": "金星：一日长于一年",
+  "reveal_en": "On Venus, a single rotation (a day) takes 243 Earth days to complete. However, its orbit around the Sun (a year) takes only 225 Earth days.",
+  "reveal_zh": "金星自转一周（一日）需耗时243个地球日，但它绕太阳公转一周（一年）却仅需225个地球日。",
+  "meaning_en": "This peculiar planetary dynamic fundamentally redefines our intuitive sense of “day” and “year.”",
+  "meaning_zh": "这种独特的行星动力学颠覆了我们对“日”与“年”的固有认知。",
   "visual": {
-    "theme": "life",
-    "color": "#00CED1",
-    "motion": "Gentle, continuous regeneration of form, resembling a subtle pulse."
+    "theme": "cosmos",
+    "color": "#FF4500",
+    "motion": "Slow sphere rotation, rapid elliptical orbit."
   },
-  "generated_at": "2026-10-27T04:03:34.007321+00:00"
+  "generated_at": "2026-10-28T04:30:10.274859+00:00"
 }
