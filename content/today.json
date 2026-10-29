@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261028-COSMOS",
-  "category": "COSMOS",
-  "title_en": "Venus: A Day Longer Than Its Year",
-  "title_zh": "金星：一日长于一年",
-  "reveal_en": "On Venus, a single rotation (a day) takes 243 Earth days to complete. However, its orbit around the Sun (a year) takes only 225 Earth days.",
-  "reveal_zh": "金星自转一周（一日）需耗时243个地球日，但它绕太阳公转一周（一年）却仅需225个地球日。",
-  "meaning_en": "This peculiar planetary dynamic fundamentally redefines our intuitive sense of “day” and “year.”",
-  "meaning_zh": "这种独特的行星动力学颠覆了我们对“日”与“年”的固有认知。",
+  "id": "OT-20261029-HUMAN",
+  "category": "HUMAN",
+  "title_en": "Your Brain Deletes Your Blurry Vision",
+  "title_zh": "大脑抹去模糊视野",
+  "reveal_en": "Every time your eyes rapidly shift focus, your brain briefly suppresses visual input. This phenomenon, known as saccadic masking, ensures you perceive a continuous, stable world instead of dizzying blurs.",
+  "reveal_zh": "每当你的目光快速移动时，大脑会短暂抑制视觉输入。这种“扫视遮蔽”让你感知世界是连续稳定的，而非模糊不清。",
+  "meaning_en": "Our perception of a stable reality is an active construction, not just a passive reception of sensory data.",
+  "meaning_zh": "我们对稳定现实的感知，是大脑主动建构的，而非被动接收感官数据。",
   "visual": {
-    "theme": "cosmos",
-    "color": "#FF4500",
-    "motion": "Slow sphere rotation, rapid elliptical orbit."
+    "theme": "human",
+    "color": "#4A90E2",
+    "motion": "Rapid eye movements followed by a seamless transition"
   },
-  "generated_at": "2026-10-28T04:30:10.274859+00:00"
+  "generated_at": "2026-10-29T04:46:24.014085+00:00"
 }
