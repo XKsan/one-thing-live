@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261029-HUMAN",
-  "category": "HUMAN",
-  "title_en": "Your Brain Deletes Your Blurry Vision",
-  "title_zh": "大脑抹去模糊视野",
-  "reveal_en": "Every time your eyes rapidly shift focus, your brain briefly suppresses visual input. This phenomenon, known as saccadic masking, ensures you perceive a continuous, stable world instead of dizzying blurs.",
-  "reveal_zh": "每当你的目光快速移动时，大脑会短暂抑制视觉输入。这种“扫视遮蔽”让你感知世界是连续稳定的，而非模糊不清。",
-  "meaning_en": "Our perception of a stable reality is an active construction, not just a passive reception of sensory data.",
-  "meaning_zh": "我们对稳定现实的感知，是大脑主动建构的，而非被动接收感官数据。",
+  "id": "OT-20261030-NATURE",
+  "category": "NATURE",
+  "title_en": "Trees \"Talk\" via Fungal Network",
+  "title_zh": "树木通过真菌网络“对话”",
+  "reveal_en": "Beneath forest floors, trees \"communicate\" and share resources like nutrients and water through vast, intricate underground networks of fungi, sometimes called the \"Wood Wide Web.\"",
+  "reveal_zh": "在森林地表之下，树木通过庞大复杂的地下真菌网络“交流”，共享养分和水，这被称为“木头万维网”。",
+  "meaning_en": "This reveals a hidden, cooperative intelligence in nature, challenging our individualistic view of plants.",
+  "meaning_zh": "这揭示了自然界中隐秘的合作智慧，颠覆了我们对植物的个体化认知。",
   "visual": {
-    "theme": "human",
-    "color": "#4A90E2",
-    "motion": "Rapid eye movements followed by a seamless transition"
+    "theme": "nature",
+    "color": "#7D5A42",
+    "motion": "Underground fungal threads subtly pulsing with light, roots intertwining."
   },
-  "generated_at": "2026-10-29T04:46:24.014085+00:00"
+  "generated_at": "2026-10-30T04:45:53.417566+00:00"
 }
