@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261030-NATURE",
-  "category": "NATURE",
-  "title_en": "Trees \"Talk\" via Fungal Network",
-  "title_zh": "树木通过真菌网络“对话”",
-  "reveal_en": "Beneath forest floors, trees \"communicate\" and share resources like nutrients and water through vast, intricate underground networks of fungi, sometimes called the \"Wood Wide Web.\"",
-  "reveal_zh": "在森林地表之下，树木通过庞大复杂的地下真菌网络“交流”，共享养分和水，这被称为“木头万维网”。",
-  "meaning_en": "This reveals a hidden, cooperative intelligence in nature, challenging our individualistic view of plants.",
-  "meaning_zh": "这揭示了自然界中隐秘的合作智慧，颠覆了我们对植物的个体化认知。",
+  "id": "OT-20261102-CULTURE",
+  "category": "CULTURE",
+  "title_en": "Carrots Weren't Always Orange",
+  "title_zh": "胡萝卜曾非橙色",
+  "reveal_en": "For thousands of years, carrots were commonly purple, white, or yellow. The familiar orange variety was specifically cultivated by Dutch growers in the 17th century, likely as a patriotic tribute to the House of Orange-Nassau.",
+  "reveal_zh": "数千年来，胡萝卜多为紫色、白色或黄色。如今的橙色品种，是17世纪荷兰人为致敬奥兰治-拿骚家族而特别培育的。",
+  "meaning_en": "Our perception of \"natural\" is often shaped by historical human choices and cultural shifts, even for something as common as a vegetable.",
+  "meaning_zh": "我们对“自然”的认知，常常是由历史性的人类选择和文化变迁所塑造，即使对于蔬菜亦是如此。",
   "visual": {
-    "theme": "nature",
-    "color": "#7D5A42",
-    "motion": "Underground fungal threads subtly pulsing with light, roots intertwining."
+    "theme": "culture",
+    "color": "#E07B39",
+    "motion": "Ancient purple, white, and yellow carrots slowly transform into the modern orange variety, with subt"
   },
-  "generated_at": "2026-10-30T04:45:53.417566+00:00"
+  "generated_at": "2026-11-02T04:52:04.251910+00:00"
 }
