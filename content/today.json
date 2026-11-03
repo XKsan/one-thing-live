@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261102-CULTURE",
-  "category": "CULTURE",
-  "title_en": "Carrots Weren't Always Orange",
-  "title_zh": "胡萝卜曾非橙色",
-  "reveal_en": "For thousands of years, carrots were commonly purple, white, or yellow. The familiar orange variety was specifically cultivated by Dutch growers in the 17th century, likely as a patriotic tribute to the House of Orange-Nassau.",
-  "reveal_zh": "数千年来，胡萝卜多为紫色、白色或黄色。如今的橙色品种，是17世纪荷兰人为致敬奥兰治-拿骚家族而特别培育的。",
-  "meaning_en": "Our perception of \"natural\" is often shaped by historical human choices and cultural shifts, even for something as common as a vegetable.",
-  "meaning_zh": "我们对“自然”的认知，常常是由历史性的人类选择和文化变迁所塑造，即使对于蔬菜亦是如此。",
+  "id": "OT-20261103-TIME",
+  "category": "TIME",
+  "title_en": "Cleopatra's Modernity",
+  "title_zh": "克利奥帕特拉的“现代”距离",
+  "reveal_en": "Cleopatra, the last pharaoh of Egypt, lived closer in time to the launch of the first iPhone in 2007 AD than she did to the construction of the Great Pyramid of Giza, completed around 2560 BC.",
+  "reveal_zh": "埃及末代法老克利奥帕特拉生活的时代，距2007年iPhone发布的时间，比距吉萨大金字塔（约公元前2560年建成）建造的时间更近。",
+  "meaning_en": "This reveals how vastly different durations can exist within our historical understanding, compressing and expanding the perceived past.",
+  "meaning_zh": "这揭示了我们历史认知中存在的巨大时间跨度差异，压缩与扩展了对过去的感知。",
   "visual": {
-    "theme": "culture",
-    "color": "#E07B39",
-    "motion": "Ancient purple, white, and yellow carrots slowly transform into the modern orange variety, with subt"
+    "theme": "time",
+    "color": "#A67C00",
+    "motion": "A slow, continuous scroll through a timeline, highlighting vast gaps and unexpected proximities."
   },
-  "generated_at": "2026-11-02T04:52:04.251910+00:00"
+  "generated_at": "2026-11-03T05:41:40.073023+00:00"
 }
