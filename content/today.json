@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261103-TIME",
-  "category": "TIME",
-  "title_en": "Cleopatra's Modernity",
-  "title_zh": "克利奥帕特拉的“现代”距离",
-  "reveal_en": "Cleopatra, the last pharaoh of Egypt, lived closer in time to the launch of the first iPhone in 2007 AD than she did to the construction of the Great Pyramid of Giza, completed around 2560 BC.",
-  "reveal_zh": "埃及末代法老克利奥帕特拉生活的时代，距2007年iPhone发布的时间，比距吉萨大金字塔（约公元前2560年建成）建造的时间更近。",
-  "meaning_en": "This reveals how vastly different durations can exist within our historical understanding, compressing and expanding the perceived past.",
-  "meaning_zh": "这揭示了我们历史认知中存在的巨大时间跨度差异，压缩与扩展了对过去的感知。",
+  "id": "OT-20261104-LIFE",
+  "category": "LIFE",
+  "title_en": "The Animal That Photosynthesizes",
+  "title_zh": "会光合作用的动物",
+  "reveal_en": "Some sea slugs, like Elysia chlorotica, consume algae and then steal their chloroplasts. These stolen organelles allow the slugs to perform photosynthesis for months, effectively becoming solar-powered animals.",
+  "reveal_zh": "某些海蛞蝓，例如斑点叶海蛞蝓，能摄取藻类并“偷走”它们的叶绿体。这些叶绿体让海蛞蝓能进行数月的光合作用，成为“太阳能”动物。",
+  "meaning_en": "This blurs the fundamental distinction between plants and animals, revealing life's astonishing adaptability and the unexpected ways organisms harness energy.",
+  "meaning_zh": "这模糊了动植物的根本区别，揭示了生命惊人的适应性和生物获取能量的意外方式。",
   "visual": {
-    "theme": "time",
-    "color": "#A67C00",
-    "motion": "A slow, continuous scroll through a timeline, highlighting vast gaps and unexpected proximities."
+    "theme": "life",
+    "color": "#008C8C",
+    "motion": "Slow, undulating movement of a translucent, leaf-like creature in water, with subtle internal light."
   },
-  "generated_at": "2026-11-03T05:41:40.073023+00:00"
+  "generated_at": "2026-11-04T05:13:03.279523+00:00"
 }
