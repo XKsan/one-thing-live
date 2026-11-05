@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261104-LIFE",
-  "category": "LIFE",
-  "title_en": "The Animal That Photosynthesizes",
-  "title_zh": "会光合作用的动物",
-  "reveal_en": "Some sea slugs, like Elysia chlorotica, consume algae and then steal their chloroplasts. These stolen organelles allow the slugs to perform photosynthesis for months, effectively becoming solar-powered animals.",
-  "reveal_zh": "某些海蛞蝓，例如斑点叶海蛞蝓，能摄取藻类并“偷走”它们的叶绿体。这些叶绿体让海蛞蝓能进行数月的光合作用，成为“太阳能”动物。",
-  "meaning_en": "This blurs the fundamental distinction between plants and animals, revealing life's astonishing adaptability and the unexpected ways organisms harness energy.",
-  "meaning_zh": "这模糊了动植物的根本区别，揭示了生命惊人的适应性和生物获取能量的意外方式。",
+  "id": "OT-20261105-NATURE",
+  "category": "NATURE",
+  "title_en": "Trees Talk Underground",
+  "title_zh": "树木地下会话",
+  "reveal_en": "Forests are not just collections of individual trees. Below ground, trees are connected by a vast \"Wood Wide Web\" of mycorrhizal fungi, through which they exchange nutrients, water, and even warning signals.",
+  "reveal_zh": "森林并非只是独立的树木集合。在地下，树木通过庞大的真菌网络“林中万维网”彼此相连，交换养分、水分，甚至传递警报信号。",
+  "meaning_en": "This hidden network reveals a profound, cooperative intelligence in nature, reshaping our understanding of ecosystems as deeply integrated communities.",
+  "meaning_zh": "这个隐藏的网络揭示了自然界深刻的合作智慧，重塑了我们对生态系统作为紧密社区的理解。",
   "visual": {
-    "theme": "life",
-    "color": "#008C8C",
-    "motion": "Slow, undulating movement of a translucent, leaf-like creature in water, with subtle internal light."
+    "theme": "nature",
+    "color": "#4A6B4A",
+    "motion": "Roots and mycelium slowly intertwining and subtly glowing."
   },
-  "generated_at": "2026-11-04T05:13:03.279523+00:00"
+  "generated_at": "2026-11-05T05:34:04.412122+00:00"
 }
