@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261119-SCIENCE",
-  "category": "SCIENCE",
-  "title_en": "Roman Concrete's Enduring Secret",
-  "title_zh": "罗马混凝土的永恒秘密",
-  "reveal_en": "Ancient Roman concrete structures, like the Pantheon, have endured for millennia. Researchers discovered a self-healing process in their volcanic ash mixture, allowing them to repair micro-cracks and far outlast modern concrete.",
-  "reveal_zh": "古罗马的混凝土建筑，如万神殿，历经千年坚固不朽。研究发现其火山灰混合物可自修复微裂纹，寿命远超现代混凝土。",
-  "meaning_en": "This reveals that \"progress\" isn't always linear, and ancient engineering held secrets modern science is only now rediscovering.",
-  "meaning_zh": "这揭示了“进步”并非总是直线，古代工程蕴含的秘密，现代科学仍在重新发现。",
+  "id": "OT-20261119-LIFE",
+  "category": "LIFE",
+  "title_en": "The Largest Organism is Fungal",
+  "title_zh": "最大生物是真菌",
+  "reveal_en": "Forget blue whales or giant redwoods. The largest single living organism known on Earth is actually a fungus in Oregon, spreading underground across 2,200 acres.",
+  "reveal_zh": "忘记蓝鲸或巨型红杉。地球上已知最大的单一活体生物，其实是俄勒冈州一片在地下蔓延2200英亩的真菌。",
+  "meaning_en": "Life's grand scale often hides beneath the surface, challenging our common perceptions of size and dominance in nature.",
+  "meaning_zh": "生命的宏伟规模常潜藏于地表之下，挑战我们对自然界中大小和主宰的固有认知。",
   "visual": {
-    "theme": "science",
-    "color": "#7F7F7F",
-    "motion": "Fissures subtly close on an ancient concrete texture."
+    "theme": "nature",
+    "color": "#5A4A3B",
+    "motion": "Subterranean mycelial network slowly expanding"
   },
-  "generated_at": "2026-11-19T05:22:36.969780+00:00"
+  "generated_at": "2026-11-19T06:21:35.181787+00:00"
 }
