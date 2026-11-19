@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261105-NATURE",
-  "category": "NATURE",
-  "title_en": "Trees Talk Underground",
-  "title_zh": "树木地下会话",
-  "reveal_en": "Forests are not just collections of individual trees. Below ground, trees are connected by a vast \"Wood Wide Web\" of mycorrhizal fungi, through which they exchange nutrients, water, and even warning signals.",
-  "reveal_zh": "森林并非只是独立的树木集合。在地下，树木通过庞大的真菌网络“林中万维网”彼此相连，交换养分、水分，甚至传递警报信号。",
-  "meaning_en": "This hidden network reveals a profound, cooperative intelligence in nature, reshaping our understanding of ecosystems as deeply integrated communities.",
-  "meaning_zh": "这个隐藏的网络揭示了自然界深刻的合作智慧，重塑了我们对生态系统作为紧密社区的理解。",
+  "id": "OT-20261119-SCIENCE",
+  "category": "SCIENCE",
+  "title_en": "Roman Concrete's Enduring Secret",
+  "title_zh": "罗马混凝土的永恒秘密",
+  "reveal_en": "Ancient Roman concrete structures, like the Pantheon, have endured for millennia. Researchers discovered a self-healing process in their volcanic ash mixture, allowing them to repair micro-cracks and far outlast modern concrete.",
+  "reveal_zh": "古罗马的混凝土建筑，如万神殿，历经千年坚固不朽。研究发现其火山灰混合物可自修复微裂纹，寿命远超现代混凝土。",
+  "meaning_en": "This reveals that \"progress\" isn't always linear, and ancient engineering held secrets modern science is only now rediscovering.",
+  "meaning_zh": "这揭示了“进步”并非总是直线，古代工程蕴含的秘密，现代科学仍在重新发现。",
   "visual": {
-    "theme": "nature",
-    "color": "#4A6B4A",
-    "motion": "Roots and mycelium slowly intertwining and subtly glowing."
+    "theme": "science",
+    "color": "#7F7F7F",
+    "motion": "Fissures subtly close on an ancient concrete texture."
   },
-  "generated_at": "2026-11-05T05:34:04.412122+00:00"
+  "generated_at": "2026-11-19T05:22:36.969780+00:00"
 }
