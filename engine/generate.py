@@ -314,7 +314,8 @@ def main():
     print(f"Output: {OUTPUT}")
 
     client = genai.Client(
-        api_key=api_key
+        api_key=api_key,
+        http_options=types.HttpOptions(api_version="v1beta"),
     )
 
     print("\nGenerating ONE THING...")
