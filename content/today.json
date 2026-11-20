@@ -1,16 +1,16 @@
 {
   "id": "OT-20261120-LIFE",
   "category": "LIFE",
-  "title_en": "Octopuses' Three Blue Hearts",
-  "title_zh": "章鱼的三颗蓝色心脏",
-  "reveal_en": "Octopuses possess not one, but three hearts. Two hearts circulate blood through their gills, while a larger systemic heart pumps it to the rest of their body. Their blood is also uniquely copper-based and blue.",
-  "reveal_zh": "章鱼拥有三颗心脏：两颗为鳃供血，一颗更大的将血液泵向身体其他部位。更奇特的是，它们的血液因铜基蛋白而呈现蓝色。",
-  "meaning_en": "This unique anatomy reveals how life adapts profoundly to marine environments, optimizing oxygen transport in ways vastly different from our own.",
-  "meaning_zh": "这种独特的解剖结构揭示了生命如何为了海洋环境进行深刻适应，以与我们截然不同的方式优化氧气运输。",
+  "title_en": "The Immortal Jellyfish",
+  "title_zh": "不朽水母",
+  "reveal_en": "Certain species of jellyfish, like Turritopsis dohrnii, can revert to an earlier stage of their life cycle after reaching sexual maturity. They essentially bypass death by aging, repeatedly transforming themselves.",
+  "reveal_zh": "某些水母，如灯塔水母，在性成熟后能逆转回生命早期阶段。它们通过反复转化，基本上避开了衰老带来的死亡。",
+  "meaning_en": "This biological anomaly challenges our fundamental understanding of aging and the fixed nature of life cycles.",
+  "meaning_zh": "这种生物异常挑战了我们对衰老和生命周期固定性的基本理解。",
   "visual": {
     "theme": "life",
-    "color": "#004080",
-    "motion": "Pulsating blue light around a central form, subtle tentacle movements."
+    "color": "#8EDCE6",
+    "motion": "Slow, pulsing underwater glow, subtle transformation."
   },
-  "generated_at": "2026-11-20T05:02:20.766145+00:00"
+  "generated_at": "2026-11-20T06:05:54.484966+00:00"
 }
