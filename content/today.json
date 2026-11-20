@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261119-LIFE",
+  "id": "OT-20261120-LIFE",
   "category": "LIFE",
-  "title_en": "The Largest Organism is Fungal",
-  "title_zh": "最大生物是真菌",
-  "reveal_en": "Forget blue whales or giant redwoods. The largest single living organism known on Earth is actually a fungus in Oregon, spreading underground across 2,200 acres.",
-  "reveal_zh": "忘记蓝鲸或巨型红杉。地球上已知最大的单一活体生物，其实是俄勒冈州一片在地下蔓延2200英亩的真菌。",
-  "meaning_en": "Life's grand scale often hides beneath the surface, challenging our common perceptions of size and dominance in nature.",
-  "meaning_zh": "生命的宏伟规模常潜藏于地表之下，挑战我们对自然界中大小和主宰的固有认知。",
+  "title_en": "Octopuses' Three Blue Hearts",
+  "title_zh": "章鱼的三颗蓝色心脏",
+  "reveal_en": "Octopuses possess not one, but three hearts. Two hearts circulate blood through their gills, while a larger systemic heart pumps it to the rest of their body. Their blood is also uniquely copper-based and blue.",
+  "reveal_zh": "章鱼拥有三颗心脏：两颗为鳃供血，一颗更大的将血液泵向身体其他部位。更奇特的是，它们的血液因铜基蛋白而呈现蓝色。",
+  "meaning_en": "This unique anatomy reveals how life adapts profoundly to marine environments, optimizing oxygen transport in ways vastly different from our own.",
+  "meaning_zh": "这种独特的解剖结构揭示了生命如何为了海洋环境进行深刻适应，以与我们截然不同的方式优化氧气运输。",
   "visual": {
-    "theme": "nature",
-    "color": "#5A4A3B",
-    "motion": "Subterranean mycelial network slowly expanding"
+    "theme": "life",
+    "color": "#004080",
+    "motion": "Pulsating blue light around a central form, subtle tentacle movements."
   },
-  "generated_at": "2026-11-19T06:21:35.181787+00:00"
+  "generated_at": "2026-11-20T05:02:20.766145+00:00"
 }
