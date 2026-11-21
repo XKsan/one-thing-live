@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261120-LIFE",
-  "category": "LIFE",
-  "title_en": "The Immortal Jellyfish",
-  "title_zh": "不朽水母",
-  "reveal_en": "Certain species of jellyfish, like Turritopsis dohrnii, can revert to an earlier stage of their life cycle after reaching sexual maturity. They essentially bypass death by aging, repeatedly transforming themselves.",
-  "reveal_zh": "某些水母，如灯塔水母，在性成熟后能逆转回生命早期阶段。它们通过反复转化，基本上避开了衰老带来的死亡。",
-  "meaning_en": "This biological anomaly challenges our fundamental understanding of aging and the fixed nature of life cycles.",
-  "meaning_zh": "这种生物异常挑战了我们对衰老和生命周期固定性的基本理解。",
+  "id": "OT-20261121-HUMAN",
+  "category": "HUMAN",
+  "title_en": "Muscles: Little Mice?",
+  "title_zh": "肌肉：古人的“小老鼠”",
+  "reveal_en": "The English word \"muscle\" derives from the Latin \"musculus,\" which literally translates to \"little mouse.\" Ancient Romans observed contracting muscles, particularly the biceps, and saw a resemblance to mice scurrying under the skin.",
+  "reveal_zh": "英语“muscle”一词源自拉丁语“musculus”，意为“小老鼠”。古罗马人观察到肌肉收缩，尤其是二头肌，形似皮肤下窜动的老鼠。",
+  "meaning_en": "This reveals the poetic and often surprising origins of everyday language, rooted in ancient observations of the human body.",
+  "meaning_zh": "这揭示了日常词汇背后充满诗意且常出人意料的起源，根植于古人对人体的观察。",
   "visual": {
-    "theme": "life",
-    "color": "#8EDCE6",
-    "motion": "Slow, pulsing underwater glow, subtle transformation."
+    "theme": "human",
+    "color": "#A0522D",
+    "motion": "A flexing bicep, with a faint, almost illusory \"mouse-like\" movement beneath the surface."
   },
-  "generated_at": "2026-11-20T06:05:54.484966+00:00"
+  "generated_at": "2026-11-21T05:57:55.967456+00:00"
 }
