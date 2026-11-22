@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261121-HUMAN",
-  "category": "HUMAN",
-  "title_en": "Muscles: Little Mice?",
-  "title_zh": "肌肉：古人的“小老鼠”",
-  "reveal_en": "The English word \"muscle\" derives from the Latin \"musculus,\" which literally translates to \"little mouse.\" Ancient Romans observed contracting muscles, particularly the biceps, and saw a resemblance to mice scurrying under the skin.",
-  "reveal_zh": "英语“muscle”一词源自拉丁语“musculus”，意为“小老鼠”。古罗马人观察到肌肉收缩，尤其是二头肌，形似皮肤下窜动的老鼠。",
-  "meaning_en": "This reveals the poetic and often surprising origins of everyday language, rooted in ancient observations of the human body.",
-  "meaning_zh": "这揭示了日常词汇背后充满诗意且常出人意料的起源，根植于古人对人体的观察。",
+  "id": "OT-20261122-LIFE",
+  "category": "LIFE",
+  "title_en": "The Infant's Dual Feat",
+  "title_zh": "婴儿的奇妙二合一",
+  "reveal_en": "For their first few months, human babies can breathe and swallow simultaneously without choking. This unique ability stems from a higher larynx position, which descends as they grow, enabling speech but preventing this dual action.",
+  "reveal_zh": "在出生后的最初几个月，人类婴儿可以同时呼吸和吞咽而不会呛到。这种独特能力源于他们较高的喉部位置，随着成长，喉部下降，使他们能说话，但也失去了这种二合一能力。",
+  "meaning_en": "This temporary infant superpower illustrates an evolutionary trade-off, where developing complex speech required sacrificing earlier, critical survival functions.",
+  "meaning_zh": "婴儿这项短暂的“超能力”揭示了进化中的权衡，发展复杂的语言能力需要牺牲早期关键的生存功能。",
   "visual": {
-    "theme": "human",
-    "color": "#A0522D",
-    "motion": "A flexing bicep, with a faint, almost illusory \"mouse-like\" movement beneath the surface."
+    "theme": "life",
+    "color": "#8BC34A",
+    "motion": "Gentle, rhythmic ebb and flow, illustrating vital processes."
   },
-  "generated_at": "2026-11-21T05:57:55.967456+00:00"
+  "generated_at": "2026-11-22T05:32:27.028377+00:00"
 }
