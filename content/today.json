@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261123-SCIENCE",
-  "category": "SCIENCE",
-  "title_en": "Plants Hear Their Predators",
-  "title_zh": "植物能“听见”捕食者",
-  "reveal_en": "Plants don't just feel touch; some can detect specific vibrations in the air, like the sound of a caterpillar chewing on a nearby leaf. Upon \"hearing\" this, they can ramp up their chemical defenses.",
-  "reveal_zh": "植物不仅能感知触碰，有些还能探测空气中特定的振动，比如毛虫啃食附近叶子的声音。听到后，它们会增强化学防御。",
-  "meaning_en": "This reveals a hidden layer of sensory perception in the natural world, suggesting plants are far more responsive than previously imagined.",
-  "meaning_zh": "这揭示了自然界中一个隐藏的感官层面，表明植物的反应能力远超我们想象。",
+  "id": "OT-20261124-LIFE",
+  "category": "LIFE",
+  "title_en": "Octopuses Edit Their Own RNA",
+  "title_zh": "章鱼实时编辑RNA",
+  "reveal_en": "Unlike most animals, octopuses extensively edit their RNA molecules after they've been transcribed from DNA. This allows them to finely tune protein production in response to their environment, on the fly.",
+  "reveal_zh": "与大多数动物不同，章鱼在DNA转录后会大量编辑其RNA分子。这使它们能够根据环境实时微调蛋白质的产生。",
+  "meaning_en": "This unique biological mechanism offers incredible adaptability, hinting at a parallel evolutionary path for complex intelligence beyond rigid genetic code.",
+  "meaning_zh": "这种独特的生物机制提供了惊人的适应性，暗示了复杂智慧在僵硬基因代码之外的并行演化路径。",
   "visual": {
-    "theme": "nature",
-    "color": "#4CAF50",
-    "motion": "Subtle vibrations ripple across a leaf, then small defensive spikes emerge."
+    "theme": "life",
+    "color": "#007BA7",
+    "motion": "Dynamic, flowing genetic strands with subtle, intricate changes occurring within."
   },
-  "generated_at": "2026-11-23T06:13:13.410175+00:00"
+  "generated_at": "2026-11-24T08:50:25.132681+00:00"
 }
