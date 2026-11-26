@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261125-NATURE",
-  "category": "NATURE",
-  "title_en": "Clouds Weigh More Than You Think",
-  "title_zh": "云朵比你想象的重得多",
-  "reveal_en": "A typical cumulus cloud, the fluffy white ones you see on a sunny day, can weigh as much as 550 tons. That's equivalent to about 100 elephants floating overhead.",
-  "reveal_zh": "你平时看到的蓬松积云，其重量可达550吨。这相当于大约100头大象在空中漂浮。",
-  "meaning_en": "This reveals the immense scale of atmospheric processes, where something seemingly light is a colossal mass of water vapor.",
-  "meaning_zh": "这揭示了大气过程的巨大规模，看似轻盈之物实为庞大的水蒸气团。",
+  "id": "OT-20261126-CULTURE",
+  "category": "CULTURE",
+  "title_en": "The Cost of Royal Purple",
+  "title_zh": "皇家紫的代价",
+  "reveal_en": "Ancient Tyrian purple, the color of emperors and kings, was extracted from thousands of Murex sea snails. Producing just one gram required around 9,000 snails, making it more valuable than gold by weight.",
+  "reveal_zh": "古代帝王專屬的泰爾紫，需從數千隻骨螺中提取。生產一克染料約需9000隻海螺，因此其價值曾一度超越等重黃金。",
+  "meaning_en": "This color wasn't just aesthetic; it was a potent symbol of power and wealth, reflecting a society's resource-intensive pursuit of status.",
+  "meaning_zh": "這種顏色不僅是美學，更是權力與財富的強大象徵，映照出社會對地位的資源密集型追求。",
   "visual": {
-    "theme": "nature",
-    "color": "#87CEEB",
-    "motion": "Gentle, slow ascent of vapor particles, forming a dense, accumulating mass."
+    "theme": "culture",
+    "color": "#6A0DAD",
+    "motion": "Subtle swirling patterns reminiscent of ancient textiles or deep ocean currents."
   },
-  "generated_at": "2026-11-25T07:25:02.383079+00:00"
+  "generated_at": "2026-11-26T07:14:00.249751+00:00"
 }
