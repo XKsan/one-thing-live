@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261126-CULTURE",
-  "category": "CULTURE",
-  "title_en": "The Cost of Royal Purple",
-  "title_zh": "皇家紫的代价",
-  "reveal_en": "Ancient Tyrian purple, the color of emperors and kings, was extracted from thousands of Murex sea snails. Producing just one gram required around 9,000 snails, making it more valuable than gold by weight.",
-  "reveal_zh": "古代帝王專屬的泰爾紫，需從數千隻骨螺中提取。生產一克染料約需9000隻海螺，因此其價值曾一度超越等重黃金。",
-  "meaning_en": "This color wasn't just aesthetic; it was a potent symbol of power and wealth, reflecting a society's resource-intensive pursuit of status.",
-  "meaning_zh": "這種顏色不僅是美學，更是權力與財富的強大象徵，映照出社會對地位的資源密集型追求。",
+  "id": "OT-20261127-HUMAN",
+  "category": "HUMAN",
+  "title_en": "The Late Appearance of Blue",
+  "title_zh": "蓝色缺席古文明",
+  "reveal_en": "Many ancient languages, including Greek, Hebrew, and Japanese, lacked a distinct word for the color \"blue.\" Texts often described the sky and sea with words we now associate with green, grey, or even dark red.",
+  "reveal_zh": "许多古老语言，包括古希腊语和希伯来语，都没有“蓝色”这个词。天空和大海常被描述为绿色、灰色或深红色。",
+  "meaning_en": "The perception and categorization of colors are deeply influenced by language, challenging our assumption of universal color experience.",
+  "meaning_zh": "颜色感知和分类深受语言影响，挑战了我们对普适颜色体验的假设。",
   "visual": {
-    "theme": "culture",
-    "color": "#6A0DAD",
-    "motion": "Subtle swirling patterns reminiscent of ancient textiles or deep ocean currents."
+    "theme": "human",
+    "color": "#4A6572",
+    "motion": "Subtle shift from ambiguous tones to a distinct blue."
   },
-  "generated_at": "2026-11-26T07:14:00.249751+00:00"
+  "generated_at": "2026-11-27T07:10:04.701840+00:00"
 }
