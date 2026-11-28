@@ -1,16 +1,16 @@
 {
-  "id": "OT-20261127-HUMAN",
-  "category": "HUMAN",
-  "title_en": "The Late Appearance of Blue",
-  "title_zh": "蓝色缺席古文明",
-  "reveal_en": "Many ancient languages, including Greek, Hebrew, and Japanese, lacked a distinct word for the color \"blue.\" Texts often described the sky and sea with words we now associate with green, grey, or even dark red.",
-  "reveal_zh": "许多古老语言，包括古希腊语和希伯来语，都没有“蓝色”这个词。天空和大海常被描述为绿色、灰色或深红色。",
-  "meaning_en": "The perception and categorization of colors are deeply influenced by language, challenging our assumption of universal color experience.",
-  "meaning_zh": "颜色感知和分类深受语言影响，挑战了我们对普适颜色体验的假设。",
+  "id": "OT-20261128-NATURE",
+  "category": "NATURE",
+  "title_en": "The Scale of Ant Life",
+  "title_zh": "蚁群的宏大规模",
+  "reveal_en": "Scientists estimate that the total biomass of all ants on Earth is approximately equal to the total biomass of all humans. This staggering ecological balance highlights the pervasive yet often overlooked presence of these tiny insects.",
+  "reveal_zh": "科学家估计，地球上所有蚂蚁的总生物量与人类总生物量大致相等。这个惊人的生态平衡突显了这些小昆虫无处不在的存在。",
+  "meaning_en": "This surprising parity reorients our perspective on Earth's dominant life forms, revealing the immense, unseen influence of the natural world.",
+  "meaning_zh": "这种出人意料的平等重新定义了我们对地球主导生命形式的看法。",
   "visual": {
-    "theme": "human",
-    "color": "#4A6572",
-    "motion": "Subtle shift from ambiguous tones to a distinct blue."
+    "theme": "nature",
+    "color": "#7C8F6E",
+    "motion": "A vast network of tiny, interconnected forms subtly pulsing, representing immense collective life."
   },
-  "generated_at": "2026-11-27T07:10:04.701840+00:00"
+  "generated_at": "2026-11-28T06:43:17.051913+00:00"
 }
